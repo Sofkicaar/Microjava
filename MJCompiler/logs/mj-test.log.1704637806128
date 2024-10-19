@@ -1,0 +1,70 @@
+INFO  15:29:44,553 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:29:44,614 - #2 program
+INFO  15:29:44,615 - #43 test301
+INFO  15:29:44,615 - #48 namespace
+INFO  15:29:44,616 - #43 Konstante
+INFO  15:29:44,616 - #3 {
+INFO  15:29:44,617 - #43 int
+INFO  15:29:44,618 - #43 a
+INFO  15:29:44,618 - #5 ;
+INFO  15:29:44,619 - #4 }
+INFO  15:29:44,620 - #3 {
+INFO  15:29:44,620 - #12 void
+INFO  15:29:44,621 - #43 main
+INFO  15:29:44,621 - #6 (
+INFO  15:29:44,621 - #7 )
+INFO  15:29:44,621 - #3 {
+INFO  15:29:44,622 - #4 }
+INFO  15:29:44,623 - #4 }
+INFO  15:29:44,633 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:29:44,664 - ===================================
+INFO  15:29:44,668 - hihhihihi  na liniji 6
+INFO  15:29:44,668 - Deklarisana promenljiva u namespace-u a na liniji 6
+INFO  15:29:44,669 - Obradjuje se fja sa void povratnim tipom,  main na liniji 14
+INFO  15:29:44,669 -  doda se lepo
+INFO  15:29:44,669 - ===================================
+INFO  15:29:44,675 - Parsiranje uspesno zavrseno!

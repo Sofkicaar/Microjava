@@ -1,0 +1,186 @@
+INFO  18:16:10,639 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  18:16:10,697 - #2 program
+INFO  18:16:10,697 - #43 MJProgram
+INFO  18:16:10,697 - #48 namespace
+INFO  18:16:10,699 - #43 Nizovi
+INFO  18:16:10,699 - #3 {
+INFO  18:16:10,700 - #43 int
+INFO  18:16:10,700 - #43 niz
+INFO  18:16:10,701 - #5 ;
+INFO  18:16:10,701 - #3 {
+INFO  18:16:10,701 - #4 }
+INFO  18:16:10,703 - #4 }
+INFO  18:16:10,703 - #43 int
+INFO  18:16:10,703 - #43 a
+INFO  18:16:10,703 - #5 ;
+INFO  18:16:10,704 - #43 int
+INFO  18:16:10,704 - #43 nizo
+INFO  18:16:10,704 - #19 [
+INFO  18:16:10,704 - #20 ]
+INFO  18:16:10,704 - #5 ;
+INFO  18:16:10,704 - #3 {
+INFO  18:16:10,705 - #12 void
+INFO  18:16:10,734 - #43 main
+INFO  18:16:10,734 - #6 (
+INFO  18:16:10,735 - #7 )
+INFO  18:16:10,735 - #3 {
+INFO  18:16:10,735 - #43 a
+INFO  18:16:10,736 - #11 =
+INFO  18:16:10,737 - #40 4
+INFO  18:16:10,737 - #5 ;
+INFO  18:16:10,738 - #43 Nizovi
+INFO  18:16:10,739 - #16 :
+INFO  18:16:10,739 - #16 :
+INFO  18:16:10,739 - #43 niz
+INFO  18:16:10,739 - #11 =
+INFO  18:16:10,740 - #43 a
+INFO  18:16:10,740 - #5 ;
+INFO  18:16:10,740 - #9 print
+INFO  18:16:10,740 - #6 (
+INFO  18:16:10,740 - #43 a
+INFO  18:16:10,740 - #7 )
+INFO  18:16:10,742 - #5 ;
+INFO  18:16:10,742 - #4 }
+INFO  18:16:10,742 - #4 }
+INFO  18:16:10,752 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             niz
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        SamoType(
+         int
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           a
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarArrayElem(
+         nizo
+        ) [VarArrayElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigSamo(
+                 a
+                ) [DesigSamo]
+                AssignOp(
+                ) [AssignOp]
+                ExprS(
+                  TermFactL(
+                    NumF(
+                     4
+                    ) [NumF]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigNiz(
+               Nizovi
+               niz
+              ) [DesigNiz]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  FactDSingle(
+                    DesigSamo(
+                     a
+                    ) [DesigSamo]
+                  ) [FactDSingle]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                DesigSamo(
+                 a
+                ) [DesigSamo]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+          Nothing(
+          ) [Nothing]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:16:10,753 - ===================================
+INFO  18:16:10,757 - ejjjjjjj u nmpppppp  na liniji 2
+INFO  18:16:10,757 - Deklarisana promenljiva niz na liniji 3
+INFO  18:16:10,757 - broj prom u nejmu su 1 na liniji 2
+INFO  18:16:10,757 - Deklarisana promenljiva a na liniji 9
+INFO  18:16:10,757 - Deklarisana promenljiva nizo na liniji 10
+INFO  18:16:10,758 - Obradjuje se fja sa void povratnim tipom,  main na liniji 12
+INFO  18:16:10,758 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 13
+INFO  18:16:10,758 - usaooooooooooo u desnizNizovi na liniji 14
+INFO  18:16:10,759 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 14
+ERROR 18:16:10,759 - Greska na liniji 14nekompatibilni tipovi pri dodeli  na liniji 14
+INFO  18:16:10,759 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 16
+INFO  18:16:10,759 -  doda se lepo
+INFO  18:16:10,759 -  Print count calls = 1
+INFO  18:16:10,759 -  Deklarisanih promenljivih ima = 3
+INFO  18:16:10,760 - ===================================
+ERROR 18:16:10,760 - Parsiranje NIJE uspesno zavrseno!

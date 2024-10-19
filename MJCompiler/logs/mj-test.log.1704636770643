@@ -1,0 +1,42 @@
+INFO  15:12:33,108 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:12:33,168 - #2 program
+INFO  15:12:33,168 - #43 test301
+INFO  15:12:33,168 - #48 namespace
+INFO  15:12:33,170 - #43 Konstante
+INFO  15:12:33,170 - #3 {
+INFO  15:12:33,171 - #21 const
+INFO  15:12:33,172 - #43 int
+INFO  15:12:33,172 - #43 nula
+INFO  15:12:33,172 - #11 =
+INFO  15:12:33,173 - #40 0
+INFO  15:12:33,173 - #5 ;
+INFO  15:12:33,173 - #21 const
+INFO  15:12:33,174 - #43 int
+INFO  15:12:33,174 - #43 jedan
+INFO  15:12:33,174 - #11 =
+INFO  15:12:33,174 - #40 1
+INFO  15:12:33,174 - #5 ;
+INFO  15:12:33,175 - #43 int
+INFO  15:12:33,175 - #43 pet
+INFO  15:12:33,176 - #11 =
+ERROR 15:12:33,206 - 
+Sintaksnaaaaa greska na liniji 8
+INFO  15:12:33,206 - #40 5
+INFO  15:12:33,206 - #5 ;
+INFO  15:12:33,206 - #4 }
+INFO  15:12:33,208 - #43 int
+INFO  15:12:33,208 - #43 a
+INFO  15:12:33,208 - #5 ;
+INFO  15:12:33,208 - #3 {
+INFO  15:12:33,208 - #12 void
+INFO  15:12:33,208 - #43 main
+INFO  15:12:33,208 - #6 (
+INFO  15:12:33,208 - #7 )
+INFO  15:12:33,208 - #3 {
+INFO  15:12:33,208 - #43 a
+INFO  15:12:33,208 - #11 =
+INFO  15:12:33,208 - #40 10
+INFO  15:12:33,209 - #5 ;
+INFO  15:12:33,209 - #4 }
+INFO  15:12:33,209 - #4 }
+ERROR 15:12:33,209 - Fatalna greskaaa, parsiranje se ne moze nastaviti na liniji 27

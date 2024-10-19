@@ -1,0 +1,111 @@
+INFO  15:58:23,355 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:58:23,412 - #2 program
+INFO  15:58:23,412 - #43 test301
+INFO  15:58:23,413 - #48 namespace
+INFO  15:58:23,414 - #43 Konstante
+INFO  15:58:23,414 - #3 {
+INFO  15:58:23,415 - #43 int
+INFO  15:58:23,416 - #43 a
+INFO  15:58:23,417 - #5 ;
+INFO  15:58:23,417 - #43 int
+INFO  15:58:23,418 - #43 b
+INFO  15:58:23,418 - #5 ;
+INFO  15:58:23,418 - #43 int
+INFO  15:58:23,418 - #43 c
+INFO  15:58:23,418 - #5 ;
+INFO  15:58:23,419 - #4 }
+INFO  15:58:23,420 - #3 {
+INFO  15:58:23,420 - #12 void
+INFO  15:58:23,421 - #43 main
+INFO  15:58:23,422 - #6 (
+INFO  15:58:23,422 - #7 )
+INFO  15:58:23,422 - #3 {
+INFO  15:58:23,442 - #4 }
+INFO  15:58:23,443 - #4 }
+INFO  15:58:23,453 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              SamoType(
+               int
+              ) [SamoType]
+              VarElem(
+                VarSingleElem(
+                 a
+                ) [VarSingleElem]
+              ) [VarElem]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               b
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             c
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:58:23,453 - ===================================
+INFO  15:58:23,458 - broj prom u nejmu je 0 na liniji 6
+INFO  15:58:23,458 - hihhihihi  na liniji 6
+INFO  15:58:23,459 - tip je 1 na liniji 6
+INFO  15:58:23,459 - Deklarisana promenljiva u namespace-u a na liniji 6
+INFO  15:58:23,459 - broj prom u nejmu je 0 na liniji 7
+INFO  15:58:23,459 - hihhihihi  na liniji 7
+INFO  15:58:23,459 - tip je 1 na liniji 7
+INFO  15:58:23,459 - Deklarisana promenljiva u namespace-u b na liniji 7
+INFO  15:58:23,460 - broj prom u nejmu je 0 na liniji 8
+INFO  15:58:23,460 - hihhihihi  na liniji 8
+INFO  15:58:23,460 - tip je 1 na liniji 8
+INFO  15:58:23,460 - Deklarisana promenljiva u namespace-u c na liniji 8
+INFO  15:58:23,460 - broj prom u nejmu je 3 na liniji 5
+INFO  15:58:23,460 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  15:58:23,460 -  doda se lepo
+INFO  15:58:23,460 - ===================================
+INFO  15:58:23,466 - Parsiranje uspesno zavrseno!

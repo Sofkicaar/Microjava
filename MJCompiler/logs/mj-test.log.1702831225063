@@ -1,0 +1,153 @@
+INFO  10:23:06,432 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  10:23:06,491 - #2 program
+INFO  10:23:06,492 - #43 MJProgram
+INFO  10:23:06,492 - #48 namespace
+INFO  10:23:06,493 - #43 Nizovi
+INFO  10:23:06,493 - #3 {
+INFO  10:23:06,494 - #43 int
+INFO  10:23:06,495 - #43 niz
+INFO  10:23:06,495 - #5 ;
+INFO  10:23:06,496 - #3 {
+INFO  10:23:06,496 - #4 }
+INFO  10:23:06,497 - #4 }
+INFO  10:23:06,497 - #43 int
+INFO  10:23:06,497 - #43 a
+INFO  10:23:06,497 - #5 ;
+INFO  10:23:06,497 - #43 int
+INFO  10:23:06,498 - #43 nizo
+INFO  10:23:06,498 - #19 [
+INFO  10:23:06,498 - #20 ]
+INFO  10:23:06,498 - #5 ;
+INFO  10:23:06,498 - #3 {
+INFO  10:23:06,498 - #12 void
+INFO  10:23:06,527 - #43 main
+INFO  10:23:06,529 - #6 (
+INFO  10:23:06,529 - #7 )
+INFO  10:23:06,529 - #3 {
+INFO  10:23:06,529 - #43 a
+INFO  10:23:06,530 - #11 =
+INFO  10:23:06,531 - #40 4
+INFO  10:23:06,532 - #5 ;
+INFO  10:23:06,532 - #9 print
+INFO  10:23:06,532 - #6 (
+INFO  10:23:06,533 - #43 a
+INFO  10:23:06,533 - #7 )
+INFO  10:23:06,534 - #5 ;
+INFO  10:23:06,534 - #4 }
+INFO  10:23:06,534 - #4 }
+INFO  10:23:06,542 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             niz
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        SamoType(
+         int
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           a
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarArrayElem(
+         nizo
+        ) [VarArrayElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              Desigg(
+                DesigSamo(
+                 a
+                ) [DesigSamo]
+              ) [Desigg]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   4
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                Desigg(
+                  DesigSamo(
+                   a
+                  ) [DesigSamo]
+                ) [Desigg]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+          Nothing(
+          ) [Nothing]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:23:06,543 - ===================================
+INFO  10:23:06,549 - ejjjjjjj u nmpppppp  na liniji 2
+INFO  10:23:06,550 - Deklarisana promenljiva niz na liniji 3
+INFO  10:23:06,550 - broj prom u nejmu su 1 na liniji 2
+INFO  10:23:06,550 - Deklarisana promenljiva a na liniji 9
+INFO  10:23:06,550 - Deklarisana promenljiva nizo na liniji 10
+INFO  10:23:06,550 - Obradjuje se fja sa void povratnim tipom,  main na liniji 12
+INFO  10:23:06,551 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 13

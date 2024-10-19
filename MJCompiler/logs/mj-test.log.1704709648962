@@ -1,0 +1,142 @@
+INFO  11:26:45,567 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  11:26:45,627 - #2 program
+INFO  11:26:45,628 - #43 test301
+INFO  11:26:45,628 - #48 namespace
+INFO  11:26:45,629 - #43 Konstante
+INFO  11:26:45,629 - #3 {
+INFO  11:26:45,630 - #43 int
+INFO  11:26:45,630 - #43 a
+INFO  11:26:45,631 - #5 ;
+INFO  11:26:45,631 - #4 }
+INFO  11:26:45,632 - #43 int
+INFO  11:26:45,632 - #43 a
+INFO  11:26:45,632 - #5 ;
+INFO  11:26:45,633 - #3 {
+INFO  11:26:45,633 - #12 void
+INFO  11:26:45,633 - #43 main
+INFO  11:26:45,633 - #6 (
+INFO  11:26:45,634 - #7 )
+INFO  11:26:45,634 - #3 {
+INFO  11:26:45,635 - #43 a
+INFO  11:26:45,635 - #11 =
+INFO  11:26:45,636 - #40 5
+INFO  11:26:45,638 - #5 ;
+INFO  11:26:45,639 - #43 Konstante
+INFO  11:26:45,639 - #16 :
+INFO  11:26:45,640 - #16 :
+INFO  11:26:45,640 - #43 a
+INFO  11:26:45,640 - #11 =
+INFO  11:26:45,640 - #43 a
+INFO  11:26:45,640 - #5 ;
+INFO  11:26:45,641 - #4 }
+INFO  11:26:45,641 - #4 }
+INFO  11:26:45,649 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               a
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   5
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigNiz(
+             Konstante
+             a
+            ) [DesigNiz]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                FactDSingle(
+                  DesigSamo(
+                   a
+                  ) [DesigSamo]
+                ) [FactDSingle]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:26:45,649 - ===================================
+INFO  11:26:45,653 - Deklarisana promenljiva a u namespace-u na liniji 6
+INFO  11:26:45,653 - Deklarisana promenljiva a na liniji 12
+INFO  11:26:45,654 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  11:26:45,654 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 19
+INFO  11:26:45,654 - ovaj drugi je 1 na liniji 19
+INFO  11:26:45,654 - prvi je 1 na liniji 19
+INFO  11:26:45,654 - Pristup promenljivoj a iz namespace-a Konstante na liniji 20
+INFO  11:26:45,654 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 20
+INFO  11:26:45,654 - ovaj drugi je 1 na liniji 20
+INFO  11:26:45,654 - prvi je 1 na liniji 20
+INFO  11:26:45,655 -  doda se lepo
+INFO  11:26:45,655 - ===================================
+INFO  11:26:45,661 - Parsiranje uspesno zavrseno!

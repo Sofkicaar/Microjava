@@ -1,0 +1,76 @@
+INFO  15:20:03,853 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:20:03,909 - #2 program
+INFO  15:20:03,910 - #43 test301
+INFO  15:20:03,910 - #48 namespace
+INFO  15:20:03,912 - #43 Konstante
+INFO  15:20:03,912 - #3 {
+INFO  15:20:03,913 - #21 const
+INFO  15:20:03,913 - #43 int
+INFO  15:20:03,914 - #43 a
+INFO  15:20:03,914 - #11 =
+INFO  15:20:03,914 - #40 1
+INFO  15:20:03,914 - #5 ;
+INFO  15:20:03,915 - #4 }
+INFO  15:20:03,917 - #3 {
+INFO  15:20:03,917 - #12 void
+INFO  15:20:03,918 - #43 main
+INFO  15:20:03,919 - #6 (
+INFO  15:20:03,919 - #7 )
+INFO  15:20:03,919 - #3 {
+INFO  15:20:03,920 - #4 }
+INFO  15:20:03,921 - #4 }
+INFO  15:20:03,929 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      ConstDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        ConstDcl(
+          SamoType(
+           int
+          ) [SamoType]
+          ConstElemSingle(
+            ConstElemm(
+             a
+              NConst(
+               1
+              ) [NConst]
+            ) [ConstElemm]
+          ) [ConstElemSingle]
+        ) [ConstDcl]
+      ) [ConstDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:20:03,953 - ===================================
+INFO  15:20:03,957 - hihhihihi  na liniji 6
+INFO  15:20:03,958 - Deklarisana konstanta imena a u namespace-u na liniji 6
+INFO  15:20:03,958 - Obradjuje se fja sa void povratnim tipom,  main na liniji 14
+INFO  15:20:03,958 -  doda se lepo
+INFO  15:20:03,958 - ===================================
+INFO  15:20:03,964 - Parsiranje uspesno zavrseno!

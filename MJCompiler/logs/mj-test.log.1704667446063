@@ -1,0 +1,159 @@
+INFO  23:40:13,223 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  23:40:13,308 - #2 program
+INFO  23:40:13,308 - #43 test301
+INFO  23:40:13,308 - #48 namespace
+INFO  23:40:13,310 - #43 Konstante
+INFO  23:40:13,311 - #3 {
+INFO  23:40:13,312 - #43 int
+INFO  23:40:13,313 - #43 a
+INFO  23:40:13,313 - #5 ;
+INFO  23:40:13,314 - #43 int
+INFO  23:40:13,315 - #43 b
+INFO  23:40:13,315 - #5 ;
+INFO  23:40:13,315 - #43 int
+INFO  23:40:13,315 - #43 c
+INFO  23:40:13,315 - #5 ;
+INFO  23:40:13,316 - #4 }
+INFO  23:40:13,317 - #43 int
+INFO  23:40:13,317 - #43 g
+INFO  23:40:13,317 - #5 ;
+INFO  23:40:13,318 - #3 {
+INFO  23:40:13,318 - #12 void
+INFO  23:40:13,319 - #43 main
+INFO  23:40:13,350 - #6 (
+INFO  23:40:13,350 - #7 )
+INFO  23:40:13,350 - #3 {
+INFO  23:40:13,351 - #43 g
+INFO  23:40:13,352 - #11 =
+INFO  23:40:13,353 - #40 4
+INFO  23:40:13,354 - #5 ;
+INFO  23:40:13,354 - #43 Konstante
+INFO  23:40:13,354 - #16 :
+INFO  23:40:13,355 - #16 :
+INFO  23:40:13,355 - #43 a
+INFO  23:40:13,355 - #11 =
+INFO  23:40:13,355 - #43 g
+INFO  23:40:13,355 - #5 ;
+INFO  23:40:13,355 - #4 }
+INFO  23:40:13,355 - #4 }
+INFO  23:40:13,372 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              SamoType(
+               int
+              ) [SamoType]
+              VarElem(
+                VarSingleElem(
+                 a
+                ) [VarSingleElem]
+              ) [VarElem]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               b
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             c
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         g
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               g
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   4
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigNiz(
+             Konstante
+             a
+            ) [DesigNiz]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                FactDSingle(
+                  DesigSamo(
+                   g
+                  ) [DesigSamo]
+                ) [FactDSingle]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:40:13,372 - ===================================

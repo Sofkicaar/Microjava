@@ -1,0 +1,146 @@
+INFO  16:11:45,505 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  16:11:45,565 - #2 program
+INFO  16:11:45,565 - #43 test301
+INFO  16:11:45,565 - #48 namespace
+INFO  16:11:45,566 - #43 Konstante
+INFO  16:11:45,566 - #3 {
+INFO  16:11:45,567 - #43 int
+INFO  16:11:45,567 - #43 a
+INFO  16:11:45,567 - #5 ;
+INFO  16:11:45,568 - #43 int
+INFO  16:11:45,568 - #43 b
+INFO  16:11:45,568 - #5 ;
+INFO  16:11:45,568 - #43 int
+INFO  16:11:45,568 - #43 c
+INFO  16:11:45,568 - #5 ;
+INFO  16:11:45,569 - #4 }
+INFO  16:11:45,570 - #43 int
+INFO  16:11:45,570 - #43 g
+INFO  16:11:45,570 - #5 ;
+INFO  16:11:45,570 - #3 {
+INFO  16:11:45,570 - #12 void
+INFO  16:11:45,571 - #43 main
+INFO  16:11:45,601 - #6 (
+INFO  16:11:45,602 - #7 )
+INFO  16:11:45,602 - #3 {
+INFO  16:11:45,603 - #43 g
+INFO  16:11:45,604 - #11 =
+INFO  16:11:45,604 - #40 4
+INFO  16:11:45,606 - #5 ;
+INFO  16:11:45,606 - #4 }
+INFO  16:11:45,607 - #4 }
+INFO  16:11:45,617 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              SamoType(
+               int
+              ) [SamoType]
+              VarElem(
+                VarSingleElem(
+                 a
+                ) [VarSingleElem]
+              ) [VarElem]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               b
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             c
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         g
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigSamo(
+             g
+            ) [DesigSamo]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                NumF(
+                 4
+                ) [NumF]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:11:45,618 - ===================================
+INFO  16:11:45,623 - tip je 1 na liniji 6
+INFO  16:11:45,624 - Deklarisana promenljiva u namespace-u a na liniji 6
+INFO  16:11:45,624 - tip je 1 na liniji 7
+INFO  16:11:45,624 - Deklarisana promenljiva u namespace-u b na liniji 7
+INFO  16:11:45,624 - tip je 1 na liniji 8
+INFO  16:11:45,624 - Deklarisana promenljiva u namespace-u c na liniji 8
+INFO  16:11:45,624 - Deklarisana promenljiva g na liniji 11
+INFO  16:11:45,624 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  16:11:45,625 - Detektovano koriscenje globalne promenljive Var g: Arr of int, 0, 0  na liniji 19
+INFO  16:11:45,625 - ovaj drugi je 1 na liniji 19
+INFO  16:11:45,625 - prvi je 3 na liniji 19
+ERROR 16:11:45,626 - Greska na liniji 19 nekompatibilni tipovi pri dodeli  na liniji 19
+INFO  16:11:45,626 -  doda se lepo
+INFO  16:11:45,626 - ===================================
+ERROR 16:11:45,626 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,77 @@
+INFO  10:42:57,911 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  10:42:57,971 - #2 program
+INFO  10:42:57,971 - #43 MJProgram
+INFO  10:42:57,972 - #43 int
+INFO  10:42:57,974 - #43 a
+INFO  10:42:57,975 - #5 ;
+INFO  10:42:57,975 - #3 {
+INFO  10:42:57,975 - #12 void
+INFO  10:42:57,976 - #43 main
+INFO  10:42:57,976 - #6 (
+INFO  10:42:57,977 - #7 )
+INFO  10:42:57,977 - #3 {
+INFO  10:42:57,978 - #43 a
+INFO  10:42:57,980 - #11 =
+INFO  10:42:57,980 - #40 4
+INFO  10:42:57,981 - #5 ;
+INFO  10:42:57,982 - #4 }
+INFO  10:42:57,983 - #4 }
+INFO  10:42:57,992 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoName(
+  ) [NoName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigSamo(
+             a
+            ) [DesigSamo]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                NumF(
+                 4
+                ) [NumF]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:42:57,993 - ===================================
+INFO  10:42:57,996 - Deklarisana promenljiva a na liniji 5
+INFO  10:42:57,996 - Obradjuje se fja sa void povratnim tipom,  main na liniji 7
+INFO  10:42:57,997 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 8
+INFO  10:42:57,997 -  doda se lepo
+INFO  10:42:57,997 - ===================================
+INFO  10:42:58,003 - Parsiranje uspesno zavrseno!

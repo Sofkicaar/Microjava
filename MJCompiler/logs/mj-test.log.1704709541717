@@ -1,0 +1,85 @@
+INFO  11:25:15,492 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  11:25:15,549 - #2 program
+INFO  11:25:15,549 - #43 test301
+INFO  11:25:15,550 - #48 namespace
+INFO  11:25:15,551 - #43 Konstante
+INFO  11:25:15,551 - #3 {
+INFO  11:25:15,552 - #43 int
+INFO  11:25:15,553 - #43 a
+INFO  11:25:15,553 - #5 ;
+INFO  11:25:15,553 - #4 }
+INFO  11:25:15,555 - #43 int
+INFO  11:25:15,555 - #43 a
+INFO  11:25:15,556 - #5 ;
+INFO  11:25:15,556 - #3 {
+INFO  11:25:15,556 - #12 void
+INFO  11:25:15,557 - #43 main
+INFO  11:25:15,558 - #6 (
+INFO  11:25:15,558 - #7 )
+INFO  11:25:15,558 - #3 {
+INFO  11:25:15,559 - #4 }
+INFO  11:25:15,560 - #4 }
+INFO  11:25:15,569 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:25:15,609 - ===================================
+INFO  11:25:15,615 - Deklarisana promenljiva a u namespace-u na liniji 6
+INFO  11:25:15,615 - Deklarisana promenljiva a na liniji 12
+INFO  11:25:15,615 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  11:25:15,616 -  doda se lepo
+INFO  11:25:15,616 - ===================================
+INFO  11:25:15,623 - Parsiranje uspesno zavrseno!

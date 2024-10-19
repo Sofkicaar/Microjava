@@ -1,0 +1,119 @@
+INFO  10:23:26,426 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  10:23:26,460 - #2 program
+INFO  10:23:26,460 - #43 test301
+INFO  10:23:26,460 - #48 namespace
+INFO  10:23:26,461 - #43 Konstante
+INFO  10:23:26,461 - #3 {
+INFO  10:23:26,461 - #43 int
+INFO  10:23:26,462 - #43 a
+INFO  10:23:26,462 - #5 ;
+INFO  10:23:26,462 - #43 int
+INFO  10:23:26,462 - #43 a
+INFO  10:23:26,462 - #5 ;
+INFO  10:23:26,463 - #43 int
+INFO  10:23:26,463 - #43 c
+INFO  10:23:26,463 - #5 ;
+INFO  10:23:26,463 - #4 }
+INFO  10:23:26,464 - #43 int
+INFO  10:23:26,464 - #43 g
+INFO  10:23:26,464 - #5 ;
+INFO  10:23:26,464 - #3 {
+INFO  10:23:26,464 - #12 void
+INFO  10:23:26,465 - #43 main
+INFO  10:23:26,466 - #6 (
+INFO  10:23:26,466 - #7 )
+INFO  10:23:26,466 - #3 {
+INFO  10:23:26,466 - #4 }
+INFO  10:23:26,467 - #4 }
+INFO  10:23:26,471 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              SamoType(
+               int
+              ) [SamoType]
+              VarElem(
+                VarSingleElem(
+                 a
+                ) [VarSingleElem]
+              ) [VarElem]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               a
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             c
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         g
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:23:26,472 - ===================================
+INFO  10:23:26,474 - Deklarisana promenljiva a na liniji 6
+ERROR 10:23:26,474 - Greska: promenljiva sa zadatim imenom  a vec postoji na liniji 7
+ERROR 10:23:26,474 - Greska: promenljiva sa zadatim imenom  a u namespave-u vec postoji na liniji 7
+INFO  10:23:26,474 - Deklarisana promenljiva a na liniji 7
+INFO  10:23:26,474 - Deklarisana promenljiva c na liniji 8
+INFO  10:23:26,474 - Deklarisana promenljiva g na liniji 11
+INFO  10:23:26,474 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  10:23:26,474 -  doda se lepo
+INFO  10:23:26,474 - ===================================
+ERROR 10:23:26,475 - Parsiranje NIJE uspesno zavrseno!

@@ -1,0 +1,111 @@
+INFO  15:10:37,812 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:10:37,851 - #2 program
+INFO  15:10:37,851 - #43 MJProgram
+INFO  15:10:37,851 - #48 namespace
+INFO  15:10:37,852 - #43 Nizovi
+INFO  15:10:37,852 - #3 {
+INFO  15:10:37,852 - #43 int
+INFO  15:10:37,853 - #43 niz
+INFO  15:10:37,853 - #19 [
+INFO  15:10:37,853 - #20 ]
+INFO  15:10:37,853 - #5 ;
+INFO  15:10:37,853 - #43 char
+INFO  15:10:37,853 - #43 nizch
+INFO  15:10:37,853 - #19 [
+INFO  15:10:37,854 - #20 ]
+INFO  15:10:37,854 - #5 ;
+INFO  15:10:37,854 - #3 {
+INFO  15:10:37,854 - #4 }
+INFO  15:10:37,855 - #4 }
+INFO  15:10:37,855 - #43 int
+INFO  15:10:37,855 - #43 a
+INFO  15:10:37,855 - #5 ;
+INFO  15:10:37,857 - #3 {
+INFO  15:10:37,857 - #12 void
+INFO  15:10:37,857 - #43 main
+INFO  15:10:37,857 - #6 (
+INFO  15:10:37,857 - #7 )
+INFO  15:10:37,857 - #3 {
+INFO  15:10:37,858 - #4 }
+INFO  15:10:37,858 - #4 }
+INFO  15:10:37,862 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarArrayElem(
+               niz
+              ) [VarArrayElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           char
+          ) [SamoType]
+          VarElem(
+            VarArrayElem(
+             nizch
+            ) [VarArrayElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:10:37,862 - ===================================
+INFO  15:10:37,864 - Deklarisana promenljiva niz na liniji 3
+INFO  15:10:37,864 - Deklarisana promenljiva nizch na liniji 4
+INFO  15:10:37,864 - Deklarisana promenljiva a na liniji 9
+INFO  15:10:37,864 - Obradjuje se fja sa void povratnim tipom,  main na liniji 11
+INFO  15:10:37,864 -  doda se lepo
+INFO  15:10:37,864 -  Print count calls = 0
+INFO  15:10:37,865 -  Deklarisanih promenljivih ima = 3
+INFO  15:10:37,865 - ===================================
+INFO  15:10:37,865 - Parsiranje uspesno zavrseno!

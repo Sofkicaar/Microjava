@@ -1,0 +1,190 @@
+INFO  15:40:21,345 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\test301.mj
+INFO  15:40:21,401 - #2 program
+INFO  15:40:21,401 - #43 test301
+INFO  15:40:21,402 - #48 namespace
+INFO  15:40:21,404 - #43 Konstante
+INFO  15:40:21,404 - #3 {
+INFO  15:40:21,404 - #21 const
+INFO  15:40:21,405 - #43 int
+INFO  15:40:21,405 - #43 nula
+INFO  15:40:21,406 - #11 =
+INFO  15:40:21,406 - #40 0
+INFO  15:40:21,406 - #5 ;
+INFO  15:40:21,407 - #21 const
+INFO  15:40:21,407 - #43 int
+INFO  15:40:21,408 - #43 jedan
+INFO  15:40:21,408 - #11 =
+INFO  15:40:21,409 - #40 1
+INFO  15:40:21,409 - #5 ;
+INFO  15:40:21,409 - #21 const
+INFO  15:40:21,409 - #43 int
+INFO  15:40:21,409 - #43 pet
+INFO  15:40:21,433 - #11 =
+INFO  15:40:21,433 - #40 5
+INFO  15:40:21,433 - #5 ;
+INFO  15:40:21,434 - #4 }
+INFO  15:40:21,435 - #48 namespace
+INFO  15:40:21,436 - #43 Nizovi
+INFO  15:40:21,436 - #3 {
+INFO  15:40:21,436 - #43 int
+INFO  15:40:21,436 - #43 niz
+INFO  15:40:21,436 - #19 [
+INFO  15:40:21,437 - #20 ]
+INFO  15:40:21,437 - #5 ;
+INFO  15:40:21,437 - #43 char
+INFO  15:40:21,437 - #43 nizch
+INFO  15:40:21,437 - #19 [
+INFO  15:40:21,438 - #20 ]
+INFO  15:40:21,438 - #5 ;
+INFO  15:40:21,438 - #3 {
+INFO  15:40:21,438 - #4 }
+INFO  15:40:21,439 - #4 }
+INFO  15:40:21,440 - #3 {
+INFO  15:40:21,440 - #12 void
+INFO  15:40:21,440 - #43 main
+INFO  15:40:21,440 - #6 (
+INFO  15:40:21,440 - #7 )
+INFO  15:40:21,440 - #43 int
+INFO  15:40:21,441 - #43 a
+INFO  15:40:21,441 - #5 ;
+INFO  15:40:21,442 - #3 {
+INFO  15:40:21,442 - #4 }
+INFO  15:40:21,443 - #4 }
+INFO  15:40:21,450 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NameSpaceL(
+      NoName(
+      ) [NoName]
+      NameSpaceSamo(
+        NameSp(
+         Konstante
+        ) [NameSp]
+        ConstDeclarations(
+          ConstDeclarations(
+            ConstDeclarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDcl(
+                SamoType(
+                 int
+                ) [SamoType]
+                ConstElemSingle(
+                  ConstElemm(
+                   nula
+                    NConst(
+                     0
+                    ) [NConst]
+                  ) [ConstElemm]
+                ) [ConstElemSingle]
+              ) [ConstDcl]
+            ) [ConstDeclarations]
+            ConstDcl(
+              SamoType(
+               int
+              ) [SamoType]
+              ConstElemSingle(
+                ConstElemm(
+                 jedan
+                  NConst(
+                   1
+                  ) [NConst]
+                ) [ConstElemm]
+              ) [ConstElemSingle]
+            ) [ConstDcl]
+          ) [ConstDeclarations]
+          ConstDcl(
+            SamoType(
+             int
+            ) [SamoType]
+            ConstElemSingle(
+              ConstElemm(
+               pet
+                NConst(
+                 5
+                ) [NConst]
+              ) [ConstElemm]
+            ) [ConstElemSingle]
+          ) [ConstDcl]
+        ) [ConstDeclarations]
+        NoMtn(
+        ) [NoMtn]
+      ) [NameSpaceSamo]
+    ) [NameSpaceL]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarArrayElem(
+               niz
+              ) [VarArrayElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           char
+          ) [SamoType]
+          VarElem(
+            VarArrayElem(
+             nizch
+            ) [VarArrayElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      VList(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VList]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:40:21,450 - ===================================
+INFO  15:40:21,455 - Deklarisana konstanta imena nula na liniji 6
+INFO  15:40:21,455 - Deklarisana konstanta imena jedan na liniji 7
+INFO  15:40:21,455 - Deklarisana konstanta imena pet na liniji 8
+INFO  15:40:21,455 - Deklarisana promenljiva niz na liniji 12
+INFO  15:40:21,456 - Deklarisana promenljiva nizch na liniji 13
+INFO  15:40:21,456 - Obradjuje se fja sa void povratnim tipom,  main na liniji 21
+INFO  15:40:21,456 - Deklarisana promenljiva a na liniji 22
+INFO  15:40:21,456 -  doda se lepo
+INFO  15:40:21,457 - ===================================
+INFO  15:40:21,464 - Parsiranje uspesno zavrseno!

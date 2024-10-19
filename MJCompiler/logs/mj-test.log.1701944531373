@@ -1,0 +1,296 @@
+INFO  11:19:42,894 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  11:19:42,931 - #2 program
+INFO  11:19:42,931 - #43 MJProgram
+INFO  11:19:42,931 - #43 int
+INFO  11:19:42,932 - #43 x
+INFO  11:19:42,933 - #5 ;
+INFO  11:19:42,933 - #43 int
+INFO  11:19:42,933 - #43 y
+INFO  11:19:42,933 - #5 ;
+INFO  11:19:42,933 - #43 bool
+INFO  11:19:42,933 - #43 a
+INFO  11:19:42,933 - #5 ;
+INFO  11:19:42,933 - #3 {
+INFO  11:19:42,933 - #43 int
+INFO  11:19:42,934 - #43 k
+INFO  11:19:42,934 - #6 (
+INFO  11:19:42,934 - #7 )
+INFO  11:19:42,934 - #43 int
+INFO  11:19:42,935 - #43 c
+INFO  11:19:42,935 - #5 ;
+INFO  11:19:42,935 - #3 {
+INFO  11:19:42,935 - #43 c
+INFO  11:19:42,941 - #11 =
+INFO  11:19:42,941 - #40 1
+INFO  11:19:42,941 - #5 ;
+INFO  11:19:42,942 - #10 return
+INFO  11:19:42,942 - #43 c
+INFO  11:19:42,942 - #24 +
+INFO  11:19:42,942 - #40 2
+INFO  11:19:42,943 - #5 ;
+INFO  11:19:42,943 - #4 }
+INFO  11:19:42,943 - #43 int
+INFO  11:19:42,943 - #43 main
+INFO  11:19:42,943 - #6 (
+INFO  11:19:42,943 - #7 )
+INFO  11:19:42,944 - #3 {
+INFO  11:19:42,944 - #43 y
+INFO  11:19:42,944 - #11 =
+INFO  11:19:42,944 - #40 2
+INFO  11:19:42,944 - #5 ;
+INFO  11:19:42,944 - #43 x
+INFO  11:19:42,944 - #11 =
+INFO  11:19:42,944 - #43 y
+INFO  11:19:42,944 - #24 +
+INFO  11:19:42,944 - #40 2
+INFO  11:19:42,945 - #5 ;
+INFO  11:19:42,945 - #43 y
+INFO  11:19:42,945 - #11 =
+INFO  11:19:42,945 - #43 k
+INFO  11:19:42,945 - #6 (
+INFO  11:19:42,945 - #7 )
+INFO  11:19:42,945 - #24 +
+INFO  11:19:42,945 - #40 3
+INFO  11:19:42,945 - #5 ;
+INFO  11:19:42,945 - #9 print
+INFO  11:19:42,946 - #6 (
+INFO  11:19:42,946 - #43 y
+INFO  11:19:42,946 - #7 )
+INFO  11:19:42,946 - #5 ;
+INFO  11:19:42,946 - #10 return
+INFO  11:19:42,946 - #40 0
+INFO  11:19:42,947 - #5 ;
+INFO  11:19:42,947 - #4 }
+INFO  11:19:42,947 - #4 }
+INFO  11:19:42,948 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoName(
+  ) [NoName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             x
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      VarDeclaration(
+        SamoType(
+         int
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           y
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       bool
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MethodReturnType(
+          SamoType(
+           int
+          ) [SamoType]
+         k
+        ) [MethodReturnType]
+        VList(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               c
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VList]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigSamo(
+                 c
+                ) [DesigSamo]
+                AssignOp(
+                ) [AssignOp]
+                ExprS(
+                  TermFactL(
+                    NumF(
+                     1
+                    ) [NumF]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          ReturnExpr(
+            ExprList(
+              ExprS(
+                TermFactL(
+                  FactDSingle(
+                    DesigSamo(
+                     c
+                    ) [DesigSamo]
+                  ) [FactDSingle]
+                ) [TermFactL]
+              ) [ExprS]
+              PlusOp(
+              ) [PlusOp]
+              TermFactL(
+                NumF(
+                 2
+                ) [NumF]
+              ) [TermFactL]
+            ) [ExprList]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MethodReturnType(
+        SamoType(
+         int
+        ) [SamoType]
+       main
+      ) [MethodReturnType]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                Assignment(
+                  DesignatorStatementAssign(
+                    DesigSamo(
+                     y
+                    ) [DesigSamo]
+                    AssignOp(
+                    ) [AssignOp]
+                    ExprS(
+                      TermFactL(
+                        NumF(
+                         2
+                        ) [NumF]
+                      ) [TermFactL]
+                    ) [ExprS]
+                  ) [DesignatorStatementAssign]
+                ) [Assignment]
+              ) [Statements]
+              Assignment(
+                DesignatorStatementAssign(
+                  DesigSamo(
+                   x
+                  ) [DesigSamo]
+                  AssignOp(
+                  ) [AssignOp]
+                  ExprList(
+                    ExprS(
+                      TermFactL(
+                        FactDSingle(
+                          DesigSamo(
+                           y
+                          ) [DesigSamo]
+                        ) [FactDSingle]
+                      ) [TermFactL]
+                    ) [ExprS]
+                    PlusOp(
+                    ) [PlusOp]
+                    TermFactL(
+                      NumF(
+                       2
+                      ) [NumF]
+                    ) [TermFactL]
+                  ) [ExprList]
+                ) [DesignatorStatementAssign]
+              ) [Assignment]
+            ) [Statements]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigSamo(
+                 y
+                ) [DesigSamo]
+                AssignOp(
+                ) [AssignOp]
+                ExprList(
+                  ExprS(
+                    TermFactL(
+                      EmptyDes(
+                        DesigSamo(
+                         k
+                        ) [DesigSamo]
+                      ) [EmptyDes]
+                    ) [TermFactL]
+                  ) [ExprS]
+                  PlusOp(
+                  ) [PlusOp]
+                  TermFactL(
+                    NumF(
+                     3
+                    ) [NumF]
+                  ) [TermFactL]
+                ) [ExprList]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          PrintStmt(
+            ExprS(
+              TermFactL(
+                FactDSingle(
+                  DesigSamo(
+                   y
+                  ) [DesigSamo]
+                ) [FactDSingle]
+              ) [TermFactL]
+            ) [ExprS]
+            Nothing(
+            ) [Nothing]
+          ) [PrintStmt]
+        ) [Statements]
+        ReturnExpr(
+          ExprS(
+            TermFactL(
+              NumF(
+               0
+              ) [NumF]
+            ) [TermFactL]
+          ) [ExprS]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:19:42,948 - ===================================
+INFO  11:19:42,950 -  Print count calls = 1
+INFO  11:19:42,950 -  Deklarisanih promenljivih ima = 0

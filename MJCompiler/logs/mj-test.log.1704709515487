@@ -1,0 +1,87 @@
+INFO  11:24:52,560 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  11:24:52,620 - #2 program
+INFO  11:24:52,620 - #43 test301
+INFO  11:24:52,620 - #48 namespace
+INFO  11:24:52,622 - #43 Konstante
+INFO  11:24:52,622 - #3 {
+INFO  11:24:52,622 - #43 int
+INFO  11:24:52,623 - #43 a
+INFO  11:24:52,624 - #5 ;
+INFO  11:24:52,624 - #43 int
+INFO  11:24:52,624 - #43 a
+INFO  11:24:52,625 - #5 ;
+INFO  11:24:52,625 - #4 }
+INFO  11:24:52,626 - #3 {
+INFO  11:24:52,627 - #12 void
+INFO  11:24:52,628 - #43 main
+INFO  11:24:52,628 - #6 (
+INFO  11:24:52,629 - #7 )
+INFO  11:24:52,629 - #3 {
+INFO  11:24:52,629 - #4 }
+INFO  11:24:52,630 - #4 }
+INFO  11:24:52,637 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               a
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:24:52,639 - ===================================
+INFO  11:24:52,643 - Deklarisana promenljiva a u namespace-u na liniji 6
+ERROR 11:24:52,643 - Greska: promenljiva sa zadatim imenom  a vec postoji na liniji 7
+ERROR 11:24:52,644 - Greska: promenljiva sa zadatim imenom  a u namespave-u vec postoji na liniji 7
+INFO  11:24:52,644 - Deklarisana promenljiva a u namespace-u na liniji 7
+INFO  11:24:52,644 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  11:24:52,644 -  doda se lepo
+INFO  11:24:52,644 - ===================================
+ERROR 11:24:52,644 - Parsiranje NIJE uspesno zavrseno!

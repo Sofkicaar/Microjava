@@ -1,0 +1,45 @@
+// Test301
+
+program test301
+
+namespace Prvi{
+	int a, b;
+}
+
+namespace Drugi{
+	int a, b;
+	
+	{}
+}
+
+	int a, b, c;
+	
+{
+	void main()	
+		
+	{
+		a = 10;
+		b = 15;
+		
+		Prvi::a = 27;
+		Prvi::b = 14;
+		
+		Drugi::a = 30;
+		Drugi::b = 90;
+		
+		print(a);
+		print(b);
+		
+		using Prvi; 
+		print(a);
+		print(b);
+			
+		using Drugi;
+		print(a);
+		print(b);
+		
+			
+	}
+}
+
+

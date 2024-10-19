@@ -1,0 +1,110 @@
+INFO  10:27:49,332 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  10:27:49,376 - #2 program
+INFO  10:27:49,376 - #43 test301
+INFO  10:27:49,376 - #48 namespace
+INFO  10:27:49,377 - #43 Konstante
+INFO  10:27:49,377 - #3 {
+INFO  10:27:49,378 - #43 int
+INFO  10:27:49,379 - #43 a
+INFO  10:27:49,379 - #5 ;
+INFO  10:27:49,380 - #43 int
+INFO  10:27:49,380 - #43 a
+INFO  10:27:49,380 - #5 ;
+INFO  10:27:49,380 - #43 int
+INFO  10:27:49,380 - #43 c
+INFO  10:27:49,380 - #5 ;
+INFO  10:27:49,380 - #4 }
+INFO  10:27:49,381 - #43 int
+INFO  10:27:49,381 - #43 g
+INFO  10:27:49,381 - #5 ;
+INFO  10:27:49,381 - #3 {
+INFO  10:27:49,381 - #12 void
+INFO  10:27:49,382 - #43 main
+INFO  10:27:49,383 - #6 (
+INFO  10:27:49,383 - #7 )
+INFO  10:27:49,383 - #3 {
+INFO  10:27:49,384 - #4 }
+INFO  10:27:49,385 - #4 }
+INFO  10:28:12,456 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              SamoType(
+               int
+              ) [SamoType]
+              VarElem(
+                VarSingleElem(
+                 a
+                ) [VarSingleElem]
+              ) [VarElem]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               a
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             c
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         g
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:28:13,305 - ===================================
+INFO  10:30:01,095 - Deklarisana promenljiva a u namespace-u na liniji 6

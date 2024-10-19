@@ -1,0 +1,56 @@
+INFO  20:34:21,478 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  20:34:21,519 - #2 program
+INFO  20:34:21,519 - #43 MJProgram
+INFO  20:34:21,520 - #3 {
+INFO  20:34:21,521 - #43 bool
+INFO  20:34:21,522 - #43 main
+INFO  20:34:21,522 - #6 (
+INFO  20:34:21,522 - #7 )
+INFO  20:34:21,522 - #3 {
+INFO  20:34:21,523 - #10 return
+INFO  20:34:21,524 - #42 false
+INFO  20:34:21,524 - #5 ;
+INFO  20:34:21,524 - #4 }
+INFO  20:34:21,524 - #4 }
+INFO  20:34:21,529 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoName(
+  ) [NoName]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnType(
+        SamoType(
+         bool
+        ) [SamoType]
+       main
+      ) [MethodReturnType]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ReturnExpr(
+          ExprS(
+            TermFactL(
+              BoolF(
+               false
+              ) [BoolF]
+            ) [TermFactL]
+          ) [ExprS]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:34:21,530 - ===================================
+INFO  20:34:21,533 - Obradjuje se fja sa5 povratnim tipom,  main na liniji 5
+INFO  20:34:21,533 - aloooooooooo5
+INFO  20:34:21,533 -  doda se lepo
+INFO  20:34:21,533 - ===================================
+INFO  20:34:21,538 - Parsiranje uspesno zavrseno!

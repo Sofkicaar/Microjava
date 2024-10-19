@@ -1,0 +1,147 @@
+INFO  15:35:41,239 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:35:41,313 - #2 program
+INFO  15:35:41,313 - #43 test301
+INFO  15:35:41,313 - #48 namespace
+INFO  15:35:41,314 - #43 Konstante
+INFO  15:35:41,315 - #3 {
+INFO  15:35:41,315 - #43 int
+INFO  15:35:41,316 - #43 a
+INFO  15:35:41,316 - #5 ;
+INFO  15:35:41,317 - #4 }
+INFO  15:35:41,318 - #43 int
+INFO  15:35:41,318 - #43 b
+INFO  15:35:41,319 - #5 ;
+INFO  15:35:41,319 - #3 {
+INFO  15:35:41,319 - #12 void
+INFO  15:35:41,320 - #43 main
+INFO  15:35:41,320 - #6 (
+INFO  15:35:41,321 - #7 )
+INFO  15:35:41,321 - #3 {
+INFO  15:35:41,322 - #43 b
+INFO  15:35:41,323 - #11 =
+INFO  15:35:41,323 - #40 4
+INFO  15:35:41,325 - #5 ;
+INFO  15:35:41,325 - #43 Konstante
+INFO  15:35:41,325 - #16 :
+INFO  15:35:41,326 - #16 :
+INFO  15:35:41,326 - #43 a
+INFO  15:35:41,326 - #11 =
+INFO  15:35:41,326 - #43 b
+INFO  15:35:41,326 - #5 ;
+INFO  15:35:41,327 - #4 }
+INFO  15:35:41,327 - #4 }
+INFO  15:35:41,335 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         b
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               b
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   4
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigNiz(
+             Konstante
+             a
+            ) [DesigNiz]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                FactDSingle(
+                  DesigSamo(
+                   b
+                  ) [DesigSamo]
+                ) [FactDSingle]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:35:41,335 - ===================================
+INFO  15:35:41,340 - hihhihihi  na liniji 6
+INFO  15:35:41,340 - tip je 1 na liniji 6
+INFO  15:35:41,341 - Deklarisana promenljiva u namespace-u a na liniji 6
+INFO  15:35:41,341 - hihhihihi  na liniji 9
+INFO  15:35:41,341 - tip je 1 na liniji 9
+INFO  15:35:41,341 - Deklarisana promenljiva u namespace-u b na liniji 9
+INFO  15:35:41,341 - Obradjuje se fja sa void povratnim tipom,  main na liniji 14
+INFO  15:35:41,342 - Detektovano koriscenje globalne promenljive Var b: Arr of int, 1, 0  na liniji 18
+INFO  15:35:41,342 - onj je1 na liniji 18
+INFO  15:35:41,342 - ovaj je 3 na liniji 18
+ERROR 15:35:41,342 - Greska na liniji 18 nekompatibilni tipovi pri dodeli  na liniji 18
+INFO  15:35:41,343 - Pristup promenljivoj a iz namespace-a Konstante na liniji 19
+INFO  15:35:41,343 - Detektovano koriscenje globalne promenljive Var b: Arr of int, 1, 0  na liniji 19
+INFO  15:35:41,343 - onj je3 na liniji 19
+INFO  15:35:41,343 - ovaj je 3 na liniji 19
+INFO  15:35:41,343 -  doda se lepo
+INFO  15:35:41,344 - ===================================
+ERROR 15:35:41,344 - Parsiranje NIJE uspesno zavrseno!

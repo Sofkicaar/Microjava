@@ -1,0 +1,120 @@
+INFO  12:26:17,816 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  12:26:17,849 - #2 program
+INFO  12:26:17,849 - #43 MJProgram
+INFO  12:26:17,849 - #43 int
+INFO  12:26:17,851 - #43 x
+INFO  12:26:17,851 - #5 ;
+INFO  12:26:17,851 - #43 int
+INFO  12:26:17,851 - #43 y
+INFO  12:26:17,851 - #5 ;
+INFO  12:26:17,851 - #43 bool
+INFO  12:26:17,852 - #43 a
+INFO  12:26:17,852 - #5 ;
+INFO  12:26:17,852 - #3 {
+INFO  12:26:17,852 - #43 int
+INFO  12:26:17,852 - #43 main
+INFO  12:26:17,853 - #6 (
+INFO  12:26:17,853 - #7 )
+INFO  12:26:17,853 - #3 {
+INFO  12:26:17,853 - #43 a
+INFO  12:26:17,854 - #11 =
+INFO  12:26:17,854 - #42 false
+INFO  12:26:17,855 - #5 ;
+INFO  12:26:17,856 - #10 return
+INFO  12:26:17,856 - #40 0
+INFO  12:26:17,856 - #5 ;
+INFO  12:26:17,856 - #4 }
+INFO  12:26:17,856 - #4 }
+INFO  12:26:17,857 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoName(
+  ) [NoName]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             x
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      VarDeclaration(
+        SamoType(
+         int
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           y
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       bool
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnType(
+        SamoType(
+         int
+        ) [SamoType]
+       main
+      ) [MethodReturnType]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               a
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  BoolF(
+                   false
+                  ) [BoolF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        ReturnExpr(
+          ExprS(
+            TermFactL(
+              NumF(
+               0
+              ) [NumF]
+            ) [TermFactL]
+          ) [ExprS]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:26:17,857 - ===================================
+INFO  12:26:17,859 -  Print count calls = 0
+INFO  12:26:17,859 -  Deklarisanih promenljivih ima = 3

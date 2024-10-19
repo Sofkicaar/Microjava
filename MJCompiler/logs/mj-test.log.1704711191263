@@ -1,0 +1,232 @@
+INFO  11:52:54,291 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  11:52:54,351 - #2 program
+INFO  11:52:54,351 - #43 test301
+INFO  11:52:54,352 - #48 namespace
+INFO  11:52:54,353 - #43 Konstante
+INFO  11:52:54,353 - #3 {
+INFO  11:52:54,354 - #43 int
+INFO  11:52:54,354 - #43 a
+INFO  11:52:54,355 - #5 ;
+INFO  11:52:54,355 - #4 }
+INFO  11:52:54,356 - #43 int
+INFO  11:52:54,357 - #43 a
+INFO  11:52:54,357 - #5 ;
+INFO  11:52:54,357 - #43 bool
+INFO  11:52:54,357 - #43 b
+INFO  11:52:54,358 - #5 ;
+INFO  11:52:54,358 - #43 int
+INFO  11:52:54,358 - #43 c
+INFO  11:52:54,358 - #5 ;
+INFO  11:52:54,358 - #3 {
+INFO  11:52:54,358 - #12 void
+INFO  11:52:54,359 - #43 main
+INFO  11:52:54,389 - #6 (
+INFO  11:52:54,390 - #7 )
+INFO  11:52:54,390 - #3 {
+INFO  11:52:54,391 - #43 a
+INFO  11:52:54,392 - #11 =
+INFO  11:52:54,392 - #40 5
+INFO  11:52:54,393 - #5 ;
+INFO  11:52:54,395 - #43 c
+INFO  11:52:54,395 - #11 =
+INFO  11:52:54,396 - #40 10
+INFO  11:52:54,396 - #5 ;
+INFO  11:52:54,396 - #43 Konstante
+INFO  11:52:54,396 - #16 :
+INFO  11:52:54,396 - #16 :
+INFO  11:52:54,396 - #43 a
+INFO  11:52:54,396 - #11 =
+INFO  11:52:54,397 - #43 c
+INFO  11:52:54,397 - #5 ;
+INFO  11:52:54,397 - #43 b
+INFO  11:52:54,398 - #11 =
+INFO  11:52:54,398 - #42 true
+INFO  11:52:54,398 - #5 ;
+INFO  11:52:54,398 - #9 print
+INFO  11:52:54,399 - #6 (
+INFO  11:52:54,399 - #43 b
+INFO  11:52:54,399 - #7 )
+INFO  11:52:54,400 - #5 ;
+INFO  11:52:54,400 - #4 }
+INFO  11:52:54,401 - #4 }
+INFO  11:52:54,411 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    VarDeclarations(
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      VarDeclaration(
+        SamoType(
+         bool
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           b
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         c
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                Assignment(
+                  DesignatorStatementAssign(
+                    DesigSamo(
+                     a
+                    ) [DesigSamo]
+                    AssignOp(
+                    ) [AssignOp]
+                    ExprS(
+                      TermFactL(
+                        NumF(
+                         5
+                        ) [NumF]
+                      ) [TermFactL]
+                    ) [ExprS]
+                  ) [DesignatorStatementAssign]
+                ) [Assignment]
+              ) [Statements]
+              Assignment(
+                DesignatorStatementAssign(
+                  DesigSamo(
+                   c
+                  ) [DesigSamo]
+                  AssignOp(
+                  ) [AssignOp]
+                  ExprS(
+                    TermFactL(
+                      NumF(
+                       10
+                      ) [NumF]
+                    ) [TermFactL]
+                  ) [ExprS]
+                ) [DesignatorStatementAssign]
+              ) [Assignment]
+            ) [Statements]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigNiz(
+                 Konstante
+                 a
+                ) [DesigNiz]
+                AssignOp(
+                ) [AssignOp]
+                ExprS(
+                  TermFactL(
+                    FactDSingle(
+                      DesigSamo(
+                       c
+                      ) [DesigSamo]
+                    ) [FactDSingle]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               b
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  BoolF(
+                   true
+                  ) [BoolF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                DesigSamo(
+                 b
+                ) [DesigSamo]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+          Nothing(
+          ) [Nothing]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:52:54,413 - ===================================
+INFO  11:52:54,419 - Deklarisana promenljiva a u namespace-u na liniji 6
+INFO  11:52:54,420 - Deklarisana promenljiva a na liniji 12
+INFO  11:52:54,420 - Deklarisana promenljiva b na liniji 13
+INFO  11:52:54,420 - Deklarisana promenljiva c na liniji 14
+INFO  11:52:54,420 - Obradjuje se fja sa void povratnim tipom,  main na liniji 17
+INFO  11:52:54,421 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 20
+INFO  11:52:54,421 - Detektovano koriscenje globalne promenljive Var c: int, 2, 0  na liniji 21
+ERROR 11:52:54,421 - Ne postoji promeljiva a u namespace-u Konstante na liniji 22
+INFO  11:52:54,422 - Detektovano koriscenje globalne promenljive Var c: int, 2, 0  na liniji 22

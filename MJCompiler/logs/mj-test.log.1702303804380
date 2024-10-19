@@ -1,0 +1,102 @@
+INFO  15:08:05,253 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:08:05,287 - #2 program
+INFO  15:08:05,287 - #43 MJProgram
+INFO  15:08:05,287 - #48 namespace
+INFO  15:08:05,288 - #43 Nizovi
+INFO  15:08:05,288 - #3 {
+INFO  15:08:05,288 - #43 int
+INFO  15:08:05,289 - #43 niz
+INFO  15:08:05,289 - #19 [
+INFO  15:08:05,289 - #20 ]
+INFO  15:08:05,289 - #5 ;
+INFO  15:08:05,289 - #43 char
+INFO  15:08:05,290 - #43 nizch
+INFO  15:08:05,290 - #19 [
+INFO  15:08:05,290 - #20 ]
+INFO  15:08:05,290 - #5 ;
+INFO  15:08:05,290 - #3 {
+INFO  15:08:05,290 - #4 }
+INFO  15:08:05,290 - #4 }
+INFO  15:08:05,291 - #43 int
+INFO  15:08:05,291 - #43 a
+INFO  15:08:05,291 - #5 ;
+INFO  15:08:05,291 - #3 {
+INFO  15:08:05,291 - #12 void
+INFO  15:08:05,292 - #43 main
+INFO  15:08:05,292 - #6 (
+INFO  15:08:05,292 - #7 )
+INFO  15:08:05,292 - #3 {
+INFO  15:08:05,292 - #4 }
+INFO  15:08:05,293 - #4 }
+INFO  15:08:05,294 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarArrayElem(
+               niz
+              ) [VarArrayElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           char
+          ) [SamoType]
+          VarElem(
+            VarArrayElem(
+             nizch
+            ) [VarArrayElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMethodDecl(
+      ) [NoMethodDecl]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:08:05,294 - ===================================
+INFO  15:08:05,296 -  Print count calls = 0
+INFO  15:08:05,296 -  Deklarisanih promenljivih ima = 3

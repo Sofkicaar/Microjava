@@ -1,0 +1,119 @@
+INFO  14:58:12,564 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  14:58:12,650 - #2 program
+INFO  14:58:12,650 - #43 test301
+INFO  14:58:12,650 - #48 namespace
+INFO  14:58:12,652 - #43 Konstante
+INFO  14:58:12,652 - #3 {
+INFO  14:58:12,654 - #21 const
+INFO  14:58:12,655 - #43 int
+INFO  14:58:12,655 - #43 nula
+INFO  14:58:12,655 - #11 =
+INFO  14:58:12,655 - #40 0
+INFO  14:58:12,655 - #5 ;
+INFO  14:58:12,656 - #21 const
+INFO  14:58:12,656 - #43 int
+INFO  14:58:12,656 - #43 jedan
+INFO  14:58:12,657 - #11 =
+INFO  14:58:12,658 - #40 1
+INFO  14:58:12,658 - #5 ;
+INFO  14:58:12,658 - #21 const
+INFO  14:58:12,658 - #43 int
+INFO  14:58:12,658 - #43 pet
+INFO  14:58:12,658 - #11 =
+INFO  14:58:12,658 - #40 5
+INFO  14:58:12,659 - #5 ;
+INFO  14:58:12,659 - #4 }
+INFO  14:58:12,661 - #3 {
+INFO  14:58:12,661 - #12 void
+INFO  14:58:12,662 - #43 main
+INFO  14:58:12,663 - #6 (
+INFO  14:58:12,664 - #7 )
+INFO  14:58:12,664 - #3 {
+INFO  14:58:12,664 - #4 }
+INFO  14:58:12,666 - #4 }
+INFO  14:58:12,677 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      ConstDeclarations(
+        ConstDeclarations(
+          ConstDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            ConstDcl(
+              SamoType(
+               int
+              ) [SamoType]
+              ConstElemSingle(
+                ConstElemm(
+                 nula
+                  NConst(
+                   0
+                  ) [NConst]
+                ) [ConstElemm]
+              ) [ConstElemSingle]
+            ) [ConstDcl]
+          ) [ConstDeclarations]
+          ConstDcl(
+            SamoType(
+             int
+            ) [SamoType]
+            ConstElemSingle(
+              ConstElemm(
+               jedan
+                NConst(
+                 1
+                ) [NConst]
+              ) [ConstElemm]
+            ) [ConstElemSingle]
+          ) [ConstDcl]
+        ) [ConstDeclarations]
+        ConstDcl(
+          SamoType(
+           int
+          ) [SamoType]
+          ConstElemSingle(
+            ConstElemm(
+             pet
+              NConst(
+               5
+              ) [NConst]
+            ) [ConstElemm]
+          ) [ConstElemSingle]
+        ) [ConstDcl]
+      ) [ConstDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:58:12,677 - ===================================
+INFO  14:58:12,685 - Deklarisana konstanta imena nula u namespace-u na liniji 6
+INFO  14:58:12,686 - Deklarisana konstanta imena jedan u namespace-u na liniji 7
+INFO  14:58:12,686 - Deklarisana konstanta imena pet u namespace-u na liniji 8
+INFO  14:58:12,686 - Obradjuje se fja sa void povratnim tipom,  main na liniji 16
+INFO  14:58:12,687 -  doda se lepo
+INFO  14:58:12,687 - ===================================
+INFO  14:58:12,695 - Parsiranje uspesno zavrseno!

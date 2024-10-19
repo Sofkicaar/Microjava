@@ -1,0 +1,356 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+	boolean errorDetected;
+	
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksnaaaaa greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greskaaa, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+init with {:
+	errorDetected = false;
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, EQUAL, VOID, CLASS, EXTENDS, TACKA, TACKA_TACKA, CONTINUE, BREAK;
+terminal LEVA_UGL, DESNA_UGL, CONST, READ, NEW;
+terminal PLUS, MINUS, VECE, VECE_JEDN, MANJE, MANJE_JEDN, INKR, DECR, AND, OR, JEDNAKO, NEJEDN, SLEDI;
+terminal MUL, DIV, MOD;
+terminal Integer NUMCONST;
+terminal Character CHARCONST;
+terminal Boolean BOOLCONST;
+terminal String IDENT;
+terminal IF, ELSE, FOR, THIS, NAMESPACE, STATIC, USING;
+
+
+
+nonterminal  DeclList, MethodDeclList, ConstDecl, ClassDecl, VarDecl, ConstElem;
+nonterminal ConstDeclList, VarDeclList, VarDeclElem;
+nonterminal ClassN, ExtendsOpt, OptConstructorMethodDeclarations;
+nonterminal FormPars, StatementList, FormalParamList, FormalParamDecl, FormParamElem;
+nonterminal Statement, Condition, DesignatorStatement;
+nonterminal AssignOp, ActPars, CondTerm, CondFact, CondFactList;
+nonterminal Relop, Addop, Mulop, FactorList, Label, LCondition;
+nonterminal IfLCondition, DesnaZagrada, VarDeclLista, FactorExpr, Exp, NumbList, CondtermList, LA;
+nonterminal IfStat, LevaZag, Desna, LevaIter, MethodName, Desig;
+
+nonterminal NameSpaceList, IdentList, StaticInit, ElseStatement, NameSpace, DesignatorIdent, ListaNiz;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj Program, ProgName, MethodDecl, MethodTypeName, Designator, ConstSam, NameSp;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr,  Term, Factor;
+
+
+
+Program ::= (Program) PROG ProgName:p NameSpaceList DeclList LBRACE MethodDeclList RBRACE;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+NameSpaceList ::= (NameSpaceL) NameSpaceList NameSpace 
+				  | 
+				  (NoName) /* epsilon */;
+
+NameSpace ::= (NameSpaceSamo) NAMESPACE NameSp:np LBRACE DeclList MethodName RBRACE;
+
+MethodName ::= (Mtn) LBRACE MethodDeclList RBRACE 
+				|
+				(NoMtn) /* epsilon */;
+
+NameSp ::= (NameSp) IDENT:nameSpace;
+
+
+
+DeclList ::= (ConstDeclarations) DeclList ConstDecl
+			  |
+			  (ClassDeclarations) DeclList ClassDecl 
+			  |
+			  (VarDeclarations) DeclList VarDecl
+			  |
+			  (NoDeclarations) /* epsilon */ ;
+			
+ConstDecl ::= (ConstDcl) CONST Type:ConstType ConstDeclList SEMI;
+
+ConstDeclList ::= (CDList) ConstDeclList COMMA ConstElem 
+					| 
+					(ConstElemSingle) ConstElem;
+					
+ConstElem ::= (ConstElemm) IDENT:ConstName EQUAL ConstSam;
+				
+				
+ConstSam ::= (NConst) NUMCONST:value
+			|
+			(CConst) CHARCONST:value
+			|
+			(BBConst) BOOLCONST:value
+			;
+
+VarDeclLista ::= (VList) VarDeclLista VarDecl
+				|
+				(NoVarDecl) /* epsilon */;
+
+VarDecl ::= (VarDeclaration) Type:varType VarDeclList SEMI
+		    |
+			(ErrorVarSemi) error:e SEMI
+		 	    {: parser.report_error("Izvrsen oporavak dooooo ; u liniji "+ eleft, null); :}
+		 	   
+;
+
+
+VarDeclList ::= (VDList) VarDeclList COMMA VarDeclElem
+				|
+				(VarElem) VarDeclElem
+				|
+				(ErrorVarComma) error:e 
+		 	    {: parser.report_error("Izvrsen oporavak do , u liniji "+ eleft, null); :}
+		 	    COMMA VarDeclElem
+;
+VarDeclElem ::= (VarSingleElem) IDENT:varElem
+				| 	
+				(VarArrayElem) IDENT:varElem LEVA_UGL DESNA_UGL
+				
+;
+
+
+
+
+Type ::= (TypeNiz) IDENT TACKA_TACKA TACKA_TACKA IDENT:typeName
+		|
+		(SamoType) IDENT:typeName;
+
+StaticInit ::= (StaticIn) STATIC LBRACE StatementList RBRACE;
+
+MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl 
+					|
+					(NoMethodDecl) /* epsilon */
+					;
+
+MethodDecl ::= (MethodDeclarationForm) MethodTypeName LPAREN FormPars DesnaZagrada VarDeclLista LBRACE StatementList RBRACE 
+				|
+				(MethodDeclaration) MethodTypeName LPAREN RPAREN VarDeclLista LBRACE StatementList RBRACE 
+				
+				
+;
+DesnaZagrada ::= (DV) RPAREN;
+
+MethodTypeName ::= (MethodReturnType) Type:type IDENT:methName
+					| (MethodReturnVoid) VOID IDENT:methName
+;
+
+
+FormPars ::= (FormParams) FormalParamList ;
+
+FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
+					|
+					(SingleFormalParamDecl) FormalParamDecl
+					|
+					(ErrorFormParCm) error:e 
+					 {: parser.report_error("Izvrsen oporavak do , u liniji "+ eleft, null); :}
+					 COMMA FormalParamDecl
+;
+
+	
+					
+FormalParamDecl ::= (FormalPDecl) FormParamElem
+					| 
+					(ArrayFormal) FormParamElem LEVA_UGL DESNA_UGL
+					
+					;
+FormParamElem ::= (Param) Type:typeForm IDENT:name
+;
+
+StatementList ::= (Statements) StatementList Statement
+				 |			
+				  (NoStmt) /* epsilon */
+				  ;
+
+
+IfLCondition ::= (ILC) Condition;
+
+LCondition ::= (LevaCondition) Condition;
+
+
+
+Statement ::= (Assignment) DesignatorStatement:dest SEMI
+			  |
+			  
+			  (BreakStat) BREAK SEMI
+			  |
+			  (ContinueStat) CONTINUE SEMI
+			  |
+			  (PrintStmt) PRINT LPAREN Expr RPAREN SEMI 
+			  |
+			  (PrintStmtNum) PRINT LPAREN Expr NumbList RPAREN SEMI 
+			  |
+			  (ReturnExpr) RETURN Expr:t SEMI
+			  |
+			  (ReturnNoExpr) RETURN SEMI
+			  | 
+			  (ReadStat) READ LPAREN Designator RPAREN SEMI
+			  |
+			  (MatchedIf) IF Expr Statement ELSE Statement
+			  |
+			  (BraceStatList) LBRACE StatementList RBRACE
+			  |
+			  (UsingIdent) USING IDENT SEMI
+			  |
+			  (AssignError) error:e Expr SEMI
+		    {: parser.report_error("Izvrsen oporavak dojojojojo ; u liniji "+ eleft, null); :}
+			  ;
+			  
+
+			  
+LevaIter ::= (LevaI) LPAREN;
+LA ::=(LeI) ;
+
+DesignatorStatement ::= (DesignatorStatementAssign) Designator AssignOp Expr
+						| 
+							(DesignatorStatementZagradaAct) Designator LPAREN ActPars RPAREN 
+						|
+						    (DesignatorStatementZagrada) Designator LPAREN RPAREN 
+					
+						|
+							(DesignatorStatementInc) Designator INKR 
+						|
+							(DesignatorStatementDekr) Designator DECR;
+
+NumbList ::= (NumList) COMMA NUMCONST;
+
+
+ActPars ::= (Actuals) ActPars COMMA Expr
+				| 
+			    Expr
+			   ;
+
+
+Condition ::= (SingleCondTerm) CondTerm 
+			| 
+			(CondtermListOr) Condition OR CondTerm;
+				
+				
+CondTerm ::= (CondFactSingle) CondFact
+           | (CFAnd) CondTerm AND CondFact;
+
+CondFact ::= (SingleExpr) Exp
+			|
+			(RelExpr) Expr Relop Expr;
+
+
+
+Expr ::= (ExprS) Term 
+        | (ExprMinus) MINUS Term
+		 | (ExprList) Expr Addop Term;
+
+
+
+
+
+
+
+Relop ::= (JednOp) JEDNAKO
+		  | 
+		  (NeJednOp) NEJEDN
+		  | 
+		  (ManjeOp) MANJE
+		  | 
+		  (VeceOp) VECE
+		  | 
+		  (ManjeJednOp) MANJE_JEDN
+		  | 
+		  (VeceJednOp) VECE_JEDN
+		  ;
+
+
+							
+Designator ::=  (DesigSamo) IDENT:name
+				|
+				(DesigNiz) IDENT TACKA_TACKA TACKA_TACKA IDENT:name
+				|
+				(DesignatorList) Designator TACKA IDENT
+				|
+				(DesignatorUglaste) Designator LEVA_UGL Expr DESNA_UGL
+;
+
+
+
+Label ::= (Labela) IDENT;
+
+
+
+Term ::= (TermFactL) Factor
+		  | (MulOpList) Term Mulop Factor;
+
+			   
+
+Factor ::= (FactDSingle) Designator
+		   |
+		   (EmptyDes) Designator LPAREN RPAREN
+		   |
+		   (FactorAct) Designator LPAREN ActPars RPAREN
+		   |
+		   (NumF) NUMCONST
+		   |
+		   (CharF) CHARCONST
+           |
+		   (BoolF) BOOLCONST
+		   |
+		   (NewF) NEW Type
+           |
+           (NewExpr) NEW Type LEVA_UGL Expr DESNA_UGL
+           |
+           (NewActPars) NEW Type LPAREN ActPars RPAREN
+           |
+           (NewNoPars) NEW Type LPAREN RPAREN
+           |
+		   (FactorExpression) LPAREN Expr RPAREN
+		   ;
+		   
+
+AssignOp ::= (AssignOp) EQUAL
+;
+
+
+Mulop ::= (MullOp) MUL
+		  |
+		  (DivOp) DIV
+		  |
+		  (ModOp) MOD
+		  ;
+		  
+Addop ::= (PlusOp) PLUS
+		  |
+		  (MinusOp) MINUS
+		  ;

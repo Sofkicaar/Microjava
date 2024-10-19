@@ -1,0 +1,159 @@
+INFO  11:27:28,967 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  11:27:29,021 - #2 program
+INFO  11:27:29,021 - #43 test301
+INFO  11:27:29,021 - #48 namespace
+INFO  11:27:29,022 - #43 Konstante
+INFO  11:27:29,022 - #3 {
+INFO  11:27:29,023 - #43 int
+INFO  11:27:29,024 - #43 a
+INFO  11:27:29,024 - #5 ;
+INFO  11:27:29,024 - #4 }
+INFO  11:27:29,026 - #43 int
+INFO  11:27:29,026 - #43 a
+INFO  11:27:29,026 - #5 ;
+INFO  11:27:29,027 - #43 bool
+INFO  11:27:29,027 - #43 b
+INFO  11:27:29,027 - #5 ;
+INFO  11:27:29,027 - #3 {
+INFO  11:27:29,027 - #12 void
+INFO  11:27:29,029 - #43 main
+INFO  11:27:29,029 - #6 (
+INFO  11:27:29,029 - #7 )
+INFO  11:27:29,029 - #3 {
+INFO  11:27:29,060 - #43 a
+INFO  11:27:29,062 - #11 =
+INFO  11:27:29,062 - #40 5
+INFO  11:27:29,063 - #5 ;
+INFO  11:27:29,063 - #43 Konstante
+INFO  11:27:29,065 - #16 :
+INFO  11:27:29,065 - #16 :
+INFO  11:27:29,065 - #43 a
+INFO  11:27:29,065 - #11 =
+INFO  11:27:29,065 - #43 b
+INFO  11:27:29,065 - #5 ;
+INFO  11:27:29,065 - #4 }
+INFO  11:27:29,065 - #4 }
+INFO  11:27:29,076 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        SamoType(
+         int
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           a
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       bool
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         b
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               a
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   5
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigNiz(
+             Konstante
+             a
+            ) [DesigNiz]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                FactDSingle(
+                  DesigSamo(
+                   b
+                  ) [DesigSamo]
+                ) [FactDSingle]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  11:27:29,076 - ===================================
+INFO  11:27:29,081 - Deklarisana promenljiva a u namespace-u na liniji 6
+INFO  11:27:29,081 - Deklarisana promenljiva a na liniji 12
+INFO  11:27:29,082 - Deklarisana promenljiva b na liniji 13
+INFO  11:27:29,082 - Obradjuje se fja sa void povratnim tipom,  main na liniji 17
+INFO  11:27:29,083 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 20
+INFO  11:27:29,083 - ovaj drugi je 1 na liniji 20
+INFO  11:27:29,083 - prvi je 1 na liniji 20
+INFO  11:27:29,083 - Pristup promenljivoj a iz namespace-a Konstante na liniji 21
+INFO  11:27:29,084 - Detektovano koriscenje globalne promenljive Var b: , 1, 0  na liniji 21
+INFO  11:27:29,084 - ovaj drugi je 5 na liniji 21
+INFO  11:27:29,084 - prvi je 1 na liniji 21
+ERROR 11:27:29,084 - Greska na liniji 21 nekompatibilni tipovi pri dodeli  na liniji 21
+INFO  11:27:29,085 -  doda se lepo
+INFO  11:27:29,085 - ===================================
+ERROR 11:27:29,086 - Parsiranje NIJE uspesno zavrseno!

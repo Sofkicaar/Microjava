@@ -1,0 +1,1280 @@
+INFO  17:24:59,110 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\test301.mj
+INFO  17:24:59,175 - #2 program
+INFO  17:24:59,175 - #43 test301
+INFO  17:24:59,175 - #48 namespace
+INFO  17:24:59,176 - #43 Konstante
+INFO  17:24:59,176 - #3 {
+INFO  17:24:59,177 - #21 const
+INFO  17:24:59,178 - #43 int
+INFO  17:24:59,178 - #43 nula
+INFO  17:24:59,178 - #11 =
+INFO  17:24:59,178 - #40 0
+INFO  17:24:59,178 - #5 ;
+INFO  17:24:59,179 - #21 const
+INFO  17:24:59,180 - #43 int
+INFO  17:24:59,180 - #43 jedan
+INFO  17:24:59,180 - #11 =
+INFO  17:24:59,180 - #40 1
+INFO  17:24:59,180 - #5 ;
+INFO  17:24:59,181 - #21 const
+INFO  17:24:59,181 - #43 int
+INFO  17:24:59,181 - #43 pet
+INFO  17:24:59,211 - #11 =
+INFO  17:24:59,211 - #40 5
+INFO  17:24:59,212 - #5 ;
+INFO  17:24:59,212 - #4 }
+INFO  17:24:59,212 - #48 namespace
+INFO  17:24:59,214 - #43 Nizovi
+INFO  17:24:59,214 - #3 {
+INFO  17:24:59,214 - #43 int
+INFO  17:24:59,214 - #43 niz
+INFO  17:24:59,214 - #19 [
+INFO  17:24:59,214 - #20 ]
+INFO  17:24:59,214 - #5 ;
+INFO  17:24:59,214 - #43 char
+INFO  17:24:59,214 - #43 nizch
+INFO  17:24:59,215 - #19 [
+INFO  17:24:59,215 - #20 ]
+INFO  17:24:59,215 - #5 ;
+INFO  17:24:59,215 - #3 {
+INFO  17:24:59,215 - #4 }
+INFO  17:24:59,216 - #4 }
+INFO  17:24:59,216 - #43 int
+INFO  17:24:59,216 - #43 a
+INFO  17:24:59,217 - #5 ;
+INFO  17:24:59,217 - #3 {
+INFO  17:24:59,217 - #12 void
+INFO  17:24:59,217 - #43 main
+INFO  17:24:59,217 - #6 (
+INFO  17:24:59,218 - #7 )
+INFO  17:24:59,218 - #43 int
+INFO  17:24:59,220 - #43 bodovi
+INFO  17:24:59,220 - #5 ;
+INFO  17:24:59,220 - #43 bool
+INFO  17:24:59,220 - #43 bt
+INFO  17:24:59,220 - #5 ;
+INFO  17:24:59,220 - #3 {
+INFO  17:24:59,221 - #43 bodovi
+INFO  17:24:59,222 - #11 =
+INFO  17:24:59,222 - #40 0
+INFO  17:24:59,223 - #5 ;
+INFO  17:24:59,224 - #43 bodovi
+INFO  17:24:59,224 - #30 ++
+INFO  17:24:59,225 - #5 ;
+INFO  17:24:59,225 - #43 bodovi
+INFO  17:24:59,225 - #11 =
+INFO  17:24:59,225 - #43 bodovi
+INFO  17:24:59,225 - #24 +
+INFO  17:24:59,226 - #43 Konstante
+INFO  17:24:59,227 - #16 :
+INFO  17:24:59,228 - #16 :
+INFO  17:24:59,228 - #43 jedan
+INFO  17:24:59,228 - #5 ;
+INFO  17:24:59,228 - #43 bodovi
+INFO  17:24:59,228 - #11 =
+INFO  17:24:59,228 - #43 bodovi
+INFO  17:24:59,229 - #37 *
+INFO  17:24:59,229 - #43 Konstante
+INFO  17:24:59,230 - #16 :
+INFO  17:24:59,230 - #16 :
+INFO  17:24:59,230 - #43 pet
+INFO  17:24:59,231 - #5 ;
+INFO  17:24:59,231 - #43 bodovi
+INFO  17:24:59,231 - #31 --
+INFO  17:24:59,231 - #5 ;
+INFO  17:24:59,231 - #9 print
+INFO  17:24:59,232 - #6 (
+INFO  17:24:59,232 - #43 bodovi
+INFO  17:24:59,232 - #7 )
+INFO  17:24:59,232 - #5 ;
+INFO  17:24:59,232 - #43 Nizovi
+INFO  17:24:59,233 - #16 :
+INFO  17:24:59,233 - #16 :
+INFO  17:24:59,233 - #43 niz
+INFO  17:24:59,233 - #11 =
+INFO  17:24:59,233 - #23 new
+INFO  17:24:59,233 - #43 int
+INFO  17:24:59,233 - #19 [
+INFO  17:24:59,233 - #40 3
+INFO  17:24:59,233 - #20 ]
+INFO  17:24:59,234 - #5 ;
+INFO  17:24:59,234 - #43 Nizovi
+INFO  17:24:59,234 - #16 :
+INFO  17:24:59,234 - #16 :
+INFO  17:24:59,234 - #43 niz
+INFO  17:24:59,234 - #19 [
+INFO  17:24:59,234 - #43 Konstante
+INFO  17:24:59,235 - #16 :
+INFO  17:24:59,235 - #16 :
+INFO  17:24:59,235 - #43 nula
+INFO  17:24:59,235 - #20 ]
+INFO  17:24:59,235 - #11 =
+INFO  17:24:59,235 - #43 Konstante
+INFO  17:24:59,235 - #16 :
+INFO  17:24:59,236 - #16 :
+INFO  17:24:59,236 - #43 jedan
+INFO  17:24:59,236 - #5 ;
+INFO  17:24:59,236 - #43 Nizovi
+INFO  17:24:59,236 - #16 :
+INFO  17:24:59,236 - #16 :
+INFO  17:24:59,237 - #43 niz
+INFO  17:24:59,237 - #19 [
+INFO  17:24:59,237 - #40 1
+INFO  17:24:59,237 - #20 ]
+INFO  17:24:59,237 - #11 =
+INFO  17:24:59,238 - #40 2
+INFO  17:24:59,238 - #5 ;
+INFO  17:24:59,238 - #43 Nizovi
+INFO  17:24:59,238 - #16 :
+INFO  17:24:59,238 - #16 :
+INFO  17:24:59,238 - #43 niz
+INFO  17:24:59,239 - #19 [
+INFO  17:24:59,239 - #43 Nizovi
+INFO  17:24:59,239 - #16 :
+INFO  17:24:59,239 - #16 :
+INFO  17:24:59,240 - #43 niz
+INFO  17:24:59,240 - #19 [
+INFO  17:24:59,240 - #43 Konstante
+INFO  17:24:59,240 - #16 :
+INFO  17:24:59,240 - #16 :
+INFO  17:24:59,240 - #43 jedan
+INFO  17:24:59,240 - #20 ]
+INFO  17:24:59,240 - #20 ]
+INFO  17:24:59,240 - #11 =
+INFO  17:24:59,241 - #43 Nizovi
+INFO  17:24:59,241 - #16 :
+INFO  17:24:59,241 - #16 :
+INFO  17:24:59,241 - #43 niz
+INFO  17:24:59,241 - #19 [
+INFO  17:24:59,241 - #43 Nizovi
+INFO  17:24:59,241 - #16 :
+INFO  17:24:59,242 - #16 :
+INFO  17:24:59,242 - #43 niz
+INFO  17:24:59,242 - #19 [
+INFO  17:24:59,242 - #40 0
+INFO  17:24:59,242 - #20 ]
+INFO  17:24:59,242 - #20 ]
+INFO  17:24:59,242 - #37 *
+INFO  17:24:59,243 - #40 3
+INFO  17:24:59,243 - #5 ;
+INFO  17:24:59,243 - #43 bodovi
+INFO  17:24:59,243 - #11 =
+INFO  17:24:59,243 - #43 Nizovi
+INFO  17:24:59,243 - #16 :
+INFO  17:24:59,244 - #16 :
+INFO  17:24:59,244 - #43 niz
+INFO  17:24:59,244 - #19 [
+INFO  17:24:59,244 - #40 2
+INFO  17:24:59,244 - #20 ]
+INFO  17:24:59,244 - #38 /
+INFO  17:24:59,245 - #43 Nizovi
+INFO  17:24:59,246 - #16 :
+INFO  17:24:59,246 - #16 :
+INFO  17:24:59,246 - #43 niz
+INFO  17:24:59,246 - #19 [
+INFO  17:24:59,246 - #40 0
+INFO  17:24:59,247 - #20 ]
+INFO  17:24:59,247 - #5 ;
+INFO  17:24:59,247 - #9 print
+INFO  17:24:59,247 - #6 (
+INFO  17:24:59,247 - #43 bodovi
+INFO  17:24:59,247 - #7 )
+INFO  17:24:59,247 - #5 ;
+INFO  17:24:59,248 - #9 print
+INFO  17:24:59,248 - #6 (
+INFO  17:24:59,248 - #43 Nizovi
+INFO  17:24:59,248 - #16 :
+INFO  17:24:59,248 - #16 :
+INFO  17:24:59,248 - #43 niz
+INFO  17:24:59,248 - #19 [
+INFO  17:24:59,248 - #40 0
+INFO  17:24:59,248 - #20 ]
+INFO  17:24:59,249 - #7 )
+INFO  17:24:59,249 - #5 ;
+INFO  17:24:59,249 - #9 print
+INFO  17:24:59,249 - #6 (
+INFO  17:24:59,249 - #43 Nizovi
+INFO  17:24:59,249 - #16 :
+INFO  17:24:59,249 - #16 :
+INFO  17:24:59,249 - #43 niz
+INFO  17:24:59,249 - #19 [
+INFO  17:24:59,249 - #40 2
+INFO  17:24:59,249 - #20 ]
+INFO  17:24:59,250 - #7 )
+INFO  17:24:59,250 - #5 ;
+INFO  17:24:59,250 - #43 Nizovi
+INFO  17:24:59,250 - #16 :
+INFO  17:24:59,250 - #16 :
+INFO  17:24:59,250 - #43 nizch
+INFO  17:24:59,250 - #11 =
+INFO  17:24:59,250 - #23 new
+INFO  17:24:59,251 - #43 char
+INFO  17:24:59,251 - #19 [
+INFO  17:24:59,251 - #40 3
+INFO  17:24:59,251 - #20 ]
+INFO  17:24:59,251 - #5 ;
+INFO  17:24:59,251 - #43 Nizovi
+INFO  17:24:59,251 - #16 :
+INFO  17:24:59,251 - #16 :
+INFO  17:24:59,251 - #43 nizch
+INFO  17:24:59,252 - #19 [
+INFO  17:24:59,252 - #40 0
+INFO  17:24:59,252 - #20 ]
+INFO  17:24:59,252 - #11 =
+INFO  17:24:59,252 - #41 a
+INFO  17:24:59,252 - #5 ;
+INFO  17:24:59,252 - #43 Nizovi
+INFO  17:24:59,252 - #16 :
+INFO  17:24:59,252 - #16 :
+INFO  17:24:59,253 - #43 nizch
+INFO  17:24:59,253 - #19 [
+INFO  17:24:59,253 - #43 Konstante
+INFO  17:24:59,253 - #16 :
+INFO  17:24:59,253 - #16 :
+INFO  17:24:59,253 - #43 jedan
+INFO  17:24:59,253 - #20 ]
+INFO  17:24:59,254 - #11 =
+INFO  17:24:59,254 - #41 b
+INFO  17:24:59,254 - #5 ;
+INFO  17:24:59,254 - #43 Nizovi
+INFO  17:24:59,254 - #16 :
+INFO  17:24:59,254 - #16 :
+INFO  17:24:59,254 - #43 nizch
+INFO  17:24:59,254 - #19 [
+INFO  17:24:59,255 - #43 Konstante
+INFO  17:24:59,255 - #16 :
+INFO  17:24:59,255 - #16 :
+INFO  17:24:59,255 - #43 pet
+INFO  17:24:59,255 - #25 -
+INFO  17:24:59,255 - #40 3
+INFO  17:24:59,256 - #20 ]
+INFO  17:24:59,256 - #11 =
+INFO  17:24:59,256 - #41 c
+INFO  17:24:59,256 - #5 ;
+INFO  17:24:59,256 - #9 print
+INFO  17:24:59,256 - #6 (
+INFO  17:24:59,257 - #43 Nizovi
+INFO  17:24:59,257 - #16 :
+INFO  17:24:59,257 - #16 :
+INFO  17:24:59,257 - #43 nizch
+INFO  17:24:59,257 - #19 [
+INFO  17:24:59,257 - #40 1
+INFO  17:24:59,257 - #20 ]
+INFO  17:24:59,257 - #7 )
+INFO  17:24:59,257 - #5 ;
+INFO  17:24:59,257 - #9 print
+INFO  17:24:59,257 - #6 (
+INFO  17:24:59,258 - #43 Nizovi
+INFO  17:24:59,258 - #16 :
+INFO  17:24:59,258 - #16 :
+INFO  17:24:59,258 - #43 nizch
+INFO  17:24:59,258 - #19 [
+INFO  17:24:59,258 - #43 Konstante
+INFO  17:24:59,258 - #16 :
+INFO  17:24:59,258 - #16 :
+INFO  17:24:59,258 - #43 jedan
+INFO  17:24:59,258 - #37 *
+INFO  17:24:59,258 - #40 2
+INFO  17:24:59,258 - #20 ]
+INFO  17:24:59,258 - #7 )
+INFO  17:24:59,259 - #5 ;
+INFO  17:24:59,259 - #43 a
+INFO  17:24:59,259 - #11 =
+INFO  17:24:59,259 - #40 1
+INFO  17:24:59,259 - #5 ;
+INFO  17:24:59,259 - #22 read
+INFO  17:24:59,259 - #6 (
+INFO  17:24:59,259 - #43 bodovi
+INFO  17:24:59,259 - #7 )
+INFO  17:24:59,259 - #5 ;
+INFO  17:24:59,259 - #43 bodovi
+INFO  17:24:59,259 - #11 =
+INFO  17:24:59,259 - #25 -
+INFO  17:24:59,260 - #43 bodovi
+INFO  17:24:59,260 - #24 +
+INFO  17:24:59,260 - #6 (
+INFO  17:24:59,260 - #43 Konstante
+INFO  17:24:59,260 - #16 :
+INFO  17:24:59,260 - #16 :
+INFO  17:24:59,260 - #43 pet
+INFO  17:24:59,260 - #37 *
+INFO  17:24:59,260 - #43 a
+INFO  17:24:59,260 - #38 /
+INFO  17:24:59,260 - #40 2
+INFO  17:24:59,260 - #25 -
+INFO  17:24:59,260 - #43 Konstante
+INFO  17:24:59,260 - #16 :
+INFO  17:24:59,260 - #16 :
+INFO  17:24:59,260 - #43 jedan
+INFO  17:24:59,260 - #7 )
+INFO  17:24:59,261 - #37 *
+INFO  17:24:59,261 - #43 bodovi
+INFO  17:24:59,261 - #25 -
+INFO  17:24:59,261 - #6 (
+INFO  17:24:59,261 - #40 3
+INFO  17:24:59,261 - #39 %
+INFO  17:24:59,261 - #40 2
+INFO  17:24:59,262 - #24 +
+INFO  17:24:59,262 - #40 3
+INFO  17:24:59,262 - #37 *
+INFO  17:24:59,262 - #40 2
+INFO  17:24:59,262 - #25 -
+INFO  17:24:59,262 - #40 3
+INFO  17:24:59,263 - #7 )
+INFO  17:24:59,263 - #5 ;
+INFO  17:24:59,263 - #9 print
+INFO  17:24:59,263 - #6 (
+INFO  17:24:59,263 - #43 bodovi
+INFO  17:24:59,263 - #7 )
+INFO  17:24:59,263 - #5 ;
+INFO  17:24:59,263 - #4 }
+INFO  17:24:59,263 - #4 }
+INFO  17:24:59,274 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NameSpaceL(
+      NoName(
+      ) [NoName]
+      NameSpaceSamo(
+        NameSp(
+         Konstante
+        ) [NameSp]
+        ConstDeclarations(
+          ConstDeclarations(
+            ConstDeclarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDcl(
+                SamoType(
+                 int
+                ) [SamoType]
+                ConstElemSingle(
+                  ConstElemm(
+                   nula
+                    NConst(
+                     0
+                    ) [NConst]
+                  ) [ConstElemm]
+                ) [ConstElemSingle]
+              ) [ConstDcl]
+            ) [ConstDeclarations]
+            ConstDcl(
+              SamoType(
+               int
+              ) [SamoType]
+              ConstElemSingle(
+                ConstElemm(
+                 jedan
+                  NConst(
+                   1
+                  ) [NConst]
+                ) [ConstElemm]
+              ) [ConstElemSingle]
+            ) [ConstDcl]
+          ) [ConstDeclarations]
+          ConstDcl(
+            SamoType(
+             int
+            ) [SamoType]
+            ConstElemSingle(
+              ConstElemm(
+               pet
+                NConst(
+                 5
+                ) [NConst]
+              ) [ConstElemm]
+            ) [ConstElemSingle]
+          ) [ConstDcl]
+        ) [ConstDeclarations]
+        NoMtn(
+        ) [NoMtn]
+      ) [NameSpaceSamo]
+    ) [NameSpaceL]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarArrayElem(
+               niz
+              ) [VarArrayElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           char
+          ) [SamoType]
+          VarElem(
+            VarArrayElem(
+             nizch
+            ) [VarArrayElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      VList(
+        VList(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               bodovi
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VList]
+        VarDeclaration(
+          SamoType(
+           bool
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             bt
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      NoStmt(
+                                                      ) [NoStmt]
+                                                      Assignment(
+                                                        DesignatorStatementAssign(
+                                                          DesigSamo(
+                                                           bodovi
+                                                          ) [DesigSamo]
+                                                          AssignOp(
+                                                          ) [AssignOp]
+                                                          ExprS(
+                                                            TermFactL(
+                                                              NumF(
+                                                               0
+                                                              ) [NumF]
+                                                            ) [TermFactL]
+                                                          ) [ExprS]
+                                                        ) [DesignatorStatementAssign]
+                                                      ) [Assignment]
+                                                    ) [Statements]
+                                                    Assignment(
+                                                      DesignatorStatementInc(
+                                                        DesigSamo(
+                                                         bodovi
+                                                        ) [DesigSamo]
+                                                      ) [DesignatorStatementInc]
+                                                    ) [Assignment]
+                                                  ) [Statements]
+                                                  Assignment(
+                                                    DesignatorStatementAssign(
+                                                      DesigSamo(
+                                                       bodovi
+                                                      ) [DesigSamo]
+                                                      AssignOp(
+                                                      ) [AssignOp]
+                                                      ExprList(
+                                                        ExprS(
+                                                          TermFactL(
+                                                            FactDSingle(
+                                                              DesigSamo(
+                                                               bodovi
+                                                              ) [DesigSamo]
+                                                            ) [FactDSingle]
+                                                          ) [TermFactL]
+                                                        ) [ExprS]
+                                                        PlusOp(
+                                                        ) [PlusOp]
+                                                        TermFactL(
+                                                          FactDSingle(
+                                                            DesigNiz(
+                                                             Konstante
+                                                             jedan
+                                                            ) [DesigNiz]
+                                                          ) [FactDSingle]
+                                                        ) [TermFactL]
+                                                      ) [ExprList]
+                                                    ) [DesignatorStatementAssign]
+                                                  ) [Assignment]
+                                                ) [Statements]
+                                                Assignment(
+                                                  DesignatorStatementAssign(
+                                                    DesigSamo(
+                                                     bodovi
+                                                    ) [DesigSamo]
+                                                    AssignOp(
+                                                    ) [AssignOp]
+                                                    ExprS(
+                                                      MulOpList(
+                                                        TermFactL(
+                                                          FactDSingle(
+                                                            DesigSamo(
+                                                             bodovi
+                                                            ) [DesigSamo]
+                                                          ) [FactDSingle]
+                                                        ) [TermFactL]
+                                                        MullOp(
+                                                        ) [MullOp]
+                                                        FactDSingle(
+                                                          DesigNiz(
+                                                           Konstante
+                                                           pet
+                                                          ) [DesigNiz]
+                                                        ) [FactDSingle]
+                                                      ) [MulOpList]
+                                                    ) [ExprS]
+                                                  ) [DesignatorStatementAssign]
+                                                ) [Assignment]
+                                              ) [Statements]
+                                              Assignment(
+                                                DesignatorStatementDekr(
+                                                  DesigSamo(
+                                                   bodovi
+                                                  ) [DesigSamo]
+                                                ) [DesignatorStatementDekr]
+                                              ) [Assignment]
+                                            ) [Statements]
+                                            PrintStmt(
+                                              ExprS(
+                                                TermFactL(
+                                                  FactDSingle(
+                                                    DesigSamo(
+                                                     bodovi
+                                                    ) [DesigSamo]
+                                                  ) [FactDSingle]
+                                                ) [TermFactL]
+                                              ) [ExprS]
+                                            ) [PrintStmt]
+                                          ) [Statements]
+                                          Assignment(
+                                            DesignatorStatementAssign(
+                                              DesigNiz(
+                                               Nizovi
+                                               niz
+                                              ) [DesigNiz]
+                                              AssignOp(
+                                              ) [AssignOp]
+                                              ExprS(
+                                                TermFactL(
+                                                  NewExpr(
+                                                    SamoType(
+                                                     int
+                                                    ) [SamoType]
+                                                    ExprS(
+                                                      TermFactL(
+                                                        NumF(
+                                                         3
+                                                        ) [NumF]
+                                                      ) [TermFactL]
+                                                    ) [ExprS]
+                                                  ) [NewExpr]
+                                                ) [TermFactL]
+                                              ) [ExprS]
+                                            ) [DesignatorStatementAssign]
+                                          ) [Assignment]
+                                        ) [Statements]
+                                        Assignment(
+                                          DesignatorStatementAssign(
+                                            DesignatorUglaste(
+                                              DesigNiz(
+                                               Nizovi
+                                               niz
+                                              ) [DesigNiz]
+                                              ExprS(
+                                                TermFactL(
+                                                  FactDSingle(
+                                                    DesigNiz(
+                                                     Konstante
+                                                     nula
+                                                    ) [DesigNiz]
+                                                  ) [FactDSingle]
+                                                ) [TermFactL]
+                                              ) [ExprS]
+                                            ) [DesignatorUglaste]
+                                            AssignOp(
+                                            ) [AssignOp]
+                                            ExprS(
+                                              TermFactL(
+                                                FactDSingle(
+                                                  DesigNiz(
+                                                   Konstante
+                                                   jedan
+                                                  ) [DesigNiz]
+                                                ) [FactDSingle]
+                                              ) [TermFactL]
+                                            ) [ExprS]
+                                          ) [DesignatorStatementAssign]
+                                        ) [Assignment]
+                                      ) [Statements]
+                                      Assignment(
+                                        DesignatorStatementAssign(
+                                          DesignatorUglaste(
+                                            DesigNiz(
+                                             Nizovi
+                                             niz
+                                            ) [DesigNiz]
+                                            ExprS(
+                                              TermFactL(
+                                                NumF(
+                                                 1
+                                                ) [NumF]
+                                              ) [TermFactL]
+                                            ) [ExprS]
+                                          ) [DesignatorUglaste]
+                                          AssignOp(
+                                          ) [AssignOp]
+                                          ExprS(
+                                            TermFactL(
+                                              NumF(
+                                               2
+                                              ) [NumF]
+                                            ) [TermFactL]
+                                          ) [ExprS]
+                                        ) [DesignatorStatementAssign]
+                                      ) [Assignment]
+                                    ) [Statements]
+                                    Assignment(
+                                      DesignatorStatementAssign(
+                                        DesignatorUglaste(
+                                          DesigNiz(
+                                           Nizovi
+                                           niz
+                                          ) [DesigNiz]
+                                          ExprS(
+                                            TermFactL(
+                                              FactDSingle(
+                                                DesignatorUglaste(
+                                                  DesigNiz(
+                                                   Nizovi
+                                                   niz
+                                                  ) [DesigNiz]
+                                                  ExprS(
+                                                    TermFactL(
+                                                      FactDSingle(
+                                                        DesigNiz(
+                                                         Konstante
+                                                         jedan
+                                                        ) [DesigNiz]
+                                                      ) [FactDSingle]
+                                                    ) [TermFactL]
+                                                  ) [ExprS]
+                                                ) [DesignatorUglaste]
+                                              ) [FactDSingle]
+                                            ) [TermFactL]
+                                          ) [ExprS]
+                                        ) [DesignatorUglaste]
+                                        AssignOp(
+                                        ) [AssignOp]
+                                        ExprS(
+                                          MulOpList(
+                                            TermFactL(
+                                              FactDSingle(
+                                                DesignatorUglaste(
+                                                  DesigNiz(
+                                                   Nizovi
+                                                   niz
+                                                  ) [DesigNiz]
+                                                  ExprS(
+                                                    TermFactL(
+                                                      FactDSingle(
+                                                        DesignatorUglaste(
+                                                          DesigNiz(
+                                                           Nizovi
+                                                           niz
+                                                          ) [DesigNiz]
+                                                          ExprS(
+                                                            TermFactL(
+                                                              NumF(
+                                                               0
+                                                              ) [NumF]
+                                                            ) [TermFactL]
+                                                          ) [ExprS]
+                                                        ) [DesignatorUglaste]
+                                                      ) [FactDSingle]
+                                                    ) [TermFactL]
+                                                  ) [ExprS]
+                                                ) [DesignatorUglaste]
+                                              ) [FactDSingle]
+                                            ) [TermFactL]
+                                            MullOp(
+                                            ) [MullOp]
+                                            NumF(
+                                             3
+                                            ) [NumF]
+                                          ) [MulOpList]
+                                        ) [ExprS]
+                                      ) [DesignatorStatementAssign]
+                                    ) [Assignment]
+                                  ) [Statements]
+                                  Assignment(
+                                    DesignatorStatementAssign(
+                                      DesigSamo(
+                                       bodovi
+                                      ) [DesigSamo]
+                                      AssignOp(
+                                      ) [AssignOp]
+                                      ExprS(
+                                        MulOpList(
+                                          TermFactL(
+                                            FactDSingle(
+                                              DesignatorUglaste(
+                                                DesigNiz(
+                                                 Nizovi
+                                                 niz
+                                                ) [DesigNiz]
+                                                ExprS(
+                                                  TermFactL(
+                                                    NumF(
+                                                     2
+                                                    ) [NumF]
+                                                  ) [TermFactL]
+                                                ) [ExprS]
+                                              ) [DesignatorUglaste]
+                                            ) [FactDSingle]
+                                          ) [TermFactL]
+                                          DivOp(
+                                          ) [DivOp]
+                                          FactDSingle(
+                                            DesignatorUglaste(
+                                              DesigNiz(
+                                               Nizovi
+                                               niz
+                                              ) [DesigNiz]
+                                              ExprS(
+                                                TermFactL(
+                                                  NumF(
+                                                   0
+                                                  ) [NumF]
+                                                ) [TermFactL]
+                                              ) [ExprS]
+                                            ) [DesignatorUglaste]
+                                          ) [FactDSingle]
+                                        ) [MulOpList]
+                                      ) [ExprS]
+                                    ) [DesignatorStatementAssign]
+                                  ) [Assignment]
+                                ) [Statements]
+                                PrintStmt(
+                                  ExprS(
+                                    TermFactL(
+                                      FactDSingle(
+                                        DesigSamo(
+                                         bodovi
+                                        ) [DesigSamo]
+                                      ) [FactDSingle]
+                                    ) [TermFactL]
+                                  ) [ExprS]
+                                ) [PrintStmt]
+                              ) [Statements]
+                              PrintStmt(
+                                ExprS(
+                                  TermFactL(
+                                    FactDSingle(
+                                      DesignatorUglaste(
+                                        DesigNiz(
+                                         Nizovi
+                                         niz
+                                        ) [DesigNiz]
+                                        ExprS(
+                                          TermFactL(
+                                            NumF(
+                                             0
+                                            ) [NumF]
+                                          ) [TermFactL]
+                                        ) [ExprS]
+                                      ) [DesignatorUglaste]
+                                    ) [FactDSingle]
+                                  ) [TermFactL]
+                                ) [ExprS]
+                              ) [PrintStmt]
+                            ) [Statements]
+                            PrintStmt(
+                              ExprS(
+                                TermFactL(
+                                  FactDSingle(
+                                    DesignatorUglaste(
+                                      DesigNiz(
+                                       Nizovi
+                                       niz
+                                      ) [DesigNiz]
+                                      ExprS(
+                                        TermFactL(
+                                          NumF(
+                                           2
+                                          ) [NumF]
+                                        ) [TermFactL]
+                                      ) [ExprS]
+                                    ) [DesignatorUglaste]
+                                  ) [FactDSingle]
+                                ) [TermFactL]
+                              ) [ExprS]
+                            ) [PrintStmt]
+                          ) [Statements]
+                          Assignment(
+                            DesignatorStatementAssign(
+                              DesigNiz(
+                               Nizovi
+                               nizch
+                              ) [DesigNiz]
+                              AssignOp(
+                              ) [AssignOp]
+                              ExprS(
+                                TermFactL(
+                                  NewExpr(
+                                    SamoType(
+                                     char
+                                    ) [SamoType]
+                                    ExprS(
+                                      TermFactL(
+                                        NumF(
+                                         3
+                                        ) [NumF]
+                                      ) [TermFactL]
+                                    ) [ExprS]
+                                  ) [NewExpr]
+                                ) [TermFactL]
+                              ) [ExprS]
+                            ) [DesignatorStatementAssign]
+                          ) [Assignment]
+                        ) [Statements]
+                        Assignment(
+                          DesignatorStatementAssign(
+                            DesignatorUglaste(
+                              DesigNiz(
+                               Nizovi
+                               nizch
+                              ) [DesigNiz]
+                              ExprS(
+                                TermFactL(
+                                  NumF(
+                                   0
+                                  ) [NumF]
+                                ) [TermFactL]
+                              ) [ExprS]
+                            ) [DesignatorUglaste]
+                            AssignOp(
+                            ) [AssignOp]
+                            ExprS(
+                              TermFactL(
+                                CharF(
+                                 a
+                                ) [CharF]
+                              ) [TermFactL]
+                            ) [ExprS]
+                          ) [DesignatorStatementAssign]
+                        ) [Assignment]
+                      ) [Statements]
+                      Assignment(
+                        DesignatorStatementAssign(
+                          DesignatorUglaste(
+                            DesigNiz(
+                             Nizovi
+                             nizch
+                            ) [DesigNiz]
+                            ExprS(
+                              TermFactL(
+                                FactDSingle(
+                                  DesigNiz(
+                                   Konstante
+                                   jedan
+                                  ) [DesigNiz]
+                                ) [FactDSingle]
+                              ) [TermFactL]
+                            ) [ExprS]
+                          ) [DesignatorUglaste]
+                          AssignOp(
+                          ) [AssignOp]
+                          ExprS(
+                            TermFactL(
+                              CharF(
+                               b
+                              ) [CharF]
+                            ) [TermFactL]
+                          ) [ExprS]
+                        ) [DesignatorStatementAssign]
+                      ) [Assignment]
+                    ) [Statements]
+                    Assignment(
+                      DesignatorStatementAssign(
+                        DesignatorUglaste(
+                          DesigNiz(
+                           Nizovi
+                           nizch
+                          ) [DesigNiz]
+                          ExprList(
+                            ExprS(
+                              TermFactL(
+                                FactDSingle(
+                                  DesigNiz(
+                                   Konstante
+                                   pet
+                                  ) [DesigNiz]
+                                ) [FactDSingle]
+                              ) [TermFactL]
+                            ) [ExprS]
+                            MinusOp(
+                            ) [MinusOp]
+                            TermFactL(
+                              NumF(
+                               3
+                              ) [NumF]
+                            ) [TermFactL]
+                          ) [ExprList]
+                        ) [DesignatorUglaste]
+                        AssignOp(
+                        ) [AssignOp]
+                        ExprS(
+                          TermFactL(
+                            CharF(
+                             c
+                            ) [CharF]
+                          ) [TermFactL]
+                        ) [ExprS]
+                      ) [DesignatorStatementAssign]
+                    ) [Assignment]
+                  ) [Statements]
+                  PrintStmt(
+                    ExprS(
+                      TermFactL(
+                        FactDSingle(
+                          DesignatorUglaste(
+                            DesigNiz(
+                             Nizovi
+                             nizch
+                            ) [DesigNiz]
+                            ExprS(
+                              TermFactL(
+                                NumF(
+                                 1
+                                ) [NumF]
+                              ) [TermFactL]
+                            ) [ExprS]
+                          ) [DesignatorUglaste]
+                        ) [FactDSingle]
+                      ) [TermFactL]
+                    ) [ExprS]
+                  ) [PrintStmt]
+                ) [Statements]
+                PrintStmt(
+                  ExprS(
+                    TermFactL(
+                      FactDSingle(
+                        DesignatorUglaste(
+                          DesigNiz(
+                           Nizovi
+                           nizch
+                          ) [DesigNiz]
+                          ExprS(
+                            MulOpList(
+                              TermFactL(
+                                FactDSingle(
+                                  DesigNiz(
+                                   Konstante
+                                   jedan
+                                  ) [DesigNiz]
+                                ) [FactDSingle]
+                              ) [TermFactL]
+                              MullOp(
+                              ) [MullOp]
+                              NumF(
+                               2
+                              ) [NumF]
+                            ) [MulOpList]
+                          ) [ExprS]
+                        ) [DesignatorUglaste]
+                      ) [FactDSingle]
+                    ) [TermFactL]
+                  ) [ExprS]
+                ) [PrintStmt]
+              ) [Statements]
+              Assignment(
+                DesignatorStatementAssign(
+                  DesigSamo(
+                   a
+                  ) [DesigSamo]
+                  AssignOp(
+                  ) [AssignOp]
+                  ExprS(
+                    TermFactL(
+                      NumF(
+                       1
+                      ) [NumF]
+                    ) [TermFactL]
+                  ) [ExprS]
+                ) [DesignatorStatementAssign]
+              ) [Assignment]
+            ) [Statements]
+            ReadStat(
+              DesigSamo(
+               bodovi
+              ) [DesigSamo]
+            ) [ReadStat]
+          ) [Statements]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               bodovi
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprList(
+                ExprList(
+                  ExprMinus(
+                    TermFactL(
+                      FactDSingle(
+                        DesigSamo(
+                         bodovi
+                        ) [DesigSamo]
+                      ) [FactDSingle]
+                    ) [TermFactL]
+                  ) [ExprMinus]
+                  PlusOp(
+                  ) [PlusOp]
+                  MulOpList(
+                    TermFactL(
+                      FactorExpression(
+                        ExprList(
+                          ExprS(
+                            MulOpList(
+                              MulOpList(
+                                TermFactL(
+                                  FactDSingle(
+                                    DesigNiz(
+                                     Konstante
+                                     pet
+                                    ) [DesigNiz]
+                                  ) [FactDSingle]
+                                ) [TermFactL]
+                                MullOp(
+                                ) [MullOp]
+                                FactDSingle(
+                                  DesigSamo(
+                                   a
+                                  ) [DesigSamo]
+                                ) [FactDSingle]
+                              ) [MulOpList]
+                              DivOp(
+                              ) [DivOp]
+                              NumF(
+                               2
+                              ) [NumF]
+                            ) [MulOpList]
+                          ) [ExprS]
+                          MinusOp(
+                          ) [MinusOp]
+                          TermFactL(
+                            FactDSingle(
+                              DesigNiz(
+                               Konstante
+                               jedan
+                              ) [DesigNiz]
+                            ) [FactDSingle]
+                          ) [TermFactL]
+                        ) [ExprList]
+                      ) [FactorExpression]
+                    ) [TermFactL]
+                    MullOp(
+                    ) [MullOp]
+                    FactDSingle(
+                      DesigSamo(
+                       bodovi
+                      ) [DesigSamo]
+                    ) [FactDSingle]
+                  ) [MulOpList]
+                ) [ExprList]
+                MinusOp(
+                ) [MinusOp]
+                TermFactL(
+                  FactorExpression(
+                    ExprList(
+                      ExprList(
+                        ExprS(
+                          MulOpList(
+                            TermFactL(
+                              NumF(
+                               3
+                              ) [NumF]
+                            ) [TermFactL]
+                            ModOp(
+                            ) [ModOp]
+                            NumF(
+                             2
+                            ) [NumF]
+                          ) [MulOpList]
+                        ) [ExprS]
+                        PlusOp(
+                        ) [PlusOp]
+                        MulOpList(
+                          TermFactL(
+                            NumF(
+                             3
+                            ) [NumF]
+                          ) [TermFactL]
+                          MullOp(
+                          ) [MullOp]
+                          NumF(
+                           2
+                          ) [NumF]
+                        ) [MulOpList]
+                      ) [ExprList]
+                      MinusOp(
+                      ) [MinusOp]
+                      TermFactL(
+                        NumF(
+                         3
+                        ) [NumF]
+                      ) [TermFactL]
+                    ) [ExprList]
+                  ) [FactorExpression]
+                ) [TermFactL]
+              ) [ExprList]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                DesigSamo(
+                 bodovi
+                ) [DesigSamo]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:24:59,276 - ===================================
+INFO  17:24:59,281 - Deklarisana konstanta imena nula na liniji 6
+INFO  17:24:59,281 - Deklarisana konstanta imena jedan na liniji 7
+INFO  17:24:59,281 - Deklarisana konstanta imena pet na liniji 8
+INFO  17:24:59,282 - Deklarisana promenljiva nizovnog tipa niz u namespace-u na liniji 12
+INFO  17:24:59,282 - Deklarisana promenljiva nizovnog tipa nizch u namespace-u na liniji 13
+INFO  17:24:59,282 - Deklarisana promenljiva a str 1 na liniji 18
+INFO  17:24:59,282 - Obradjuje se fja sa void povratnim tipom,  main na liniji 21
+INFO  17:24:59,282 - Deklarisana promenljiva bodovi str 1 na liniji 22
+INFO  17:24:59,282 - Deklarisana promenljiva bt str 5 na liniji 23
+INFO  17:24:59,283 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 25
+INFO  17:24:59,283 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 26
+INFO  17:24:59,283 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 27
+INFO  17:24:59,283 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 27
+INFO  17:24:59,283 - Pristup promenljivoj jedan iz namespace-a Konstante na liniji 27
+INFO  17:24:59,283 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 28
+INFO  17:24:59,283 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 28
+INFO  17:24:59,284 - Pristup promenljivoj pet iz namespace-a Konstante na liniji 28
+INFO  17:24:59,284 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 29
+INFO  17:24:59,284 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 30
+INFO  17:24:59,284 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 32
+INFO  17:24:59,284 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 33
+INFO  17:24:59,284 - Pristup promenljivoj nula iz namespace-a Konstante na liniji 33
+INFO  17:24:59,284 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 33
+INFO  17:24:59,284 - Pristup promenljivoj jedan iz namespace-a Konstante na liniji 33
+INFO  17:24:59,284 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 34
+INFO  17:24:59,284 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 34
+INFO  17:24:59,285 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 35
+INFO  17:24:59,285 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 35
+INFO  17:24:59,285 - Pristup promenljivoj jedan iz namespace-a Konstante na liniji 35
+INFO  17:24:59,285 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 35
+INFO  17:24:59,285 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 35
+INFO  17:24:59,285 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 35
+INFO  17:24:59,285 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 35
+INFO  17:24:59,285 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 35
+INFO  17:24:59,285 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 35
+INFO  17:24:59,285 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 36
+INFO  17:24:59,285 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 36
+INFO  17:24:59,285 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 36
+INFO  17:24:59,285 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 36
+INFO  17:24:59,285 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 36
+INFO  17:24:59,286 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 37
+INFO  17:24:59,286 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 38
+INFO  17:24:59,286 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 38
+INFO  17:24:59,286 - Pristup promenljivoj niz iz namespace-a Nizovi na liniji 39
+INFO  17:24:59,286 - Detektovan pristup elementu niza Var niz: Arr of int, -1, -1  na liniji 39
+INFO  17:24:59,286 - Pristup promenljivoj nizch iz namespace-a Nizovi na liniji 42
+INFO  17:24:59,286 - Pristup promenljivoj nizch iz namespace-a Nizovi na liniji 43
+INFO  17:24:59,286 - Detektovan pristup elementu niza Var nizch: Arr of char, -1, -1  na liniji 43
+INFO  17:24:59,286 - Pristup promenljivoj nizch iz namespace-a Nizovi na liniji 44
+INFO  17:24:59,286 - Pristup promenljivoj jedan iz namespace-a Konstante na liniji 44
+INFO  17:24:59,286 - Detektovan pristup elementu niza Var nizch: Arr of char, -1, -1  na liniji 44
+INFO  17:24:59,286 - Pristup promenljivoj nizch iz namespace-a Nizovi na liniji 45
+INFO  17:24:59,286 - Pristup promenljivoj pet iz namespace-a Konstante na liniji 45
+INFO  17:24:59,286 - Detektovan pristup elementu niza Var nizch: Arr of char, -1, -1  na liniji 45
+INFO  17:24:59,287 - Pristup promenljivoj nizch iz namespace-a Nizovi na liniji 46
+INFO  17:24:59,287 - Detektovan pristup elementu niza Var nizch: Arr of char, -1, -1  na liniji 46
+INFO  17:24:59,287 - Pristup promenljivoj nizch iz namespace-a Nizovi na liniji 47
+INFO  17:24:59,287 - Pristup promenljivoj jedan iz namespace-a Konstante na liniji 47
+INFO  17:24:59,287 - Detektovan pristup elementu niza Var nizch: Arr of char, -1, -1  na liniji 47
+INFO  17:24:59,287 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 49
+INFO  17:24:59,287 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 50
+INFO  17:24:59,288 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 51
+INFO  17:24:59,288 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 51
+INFO  17:24:59,288 - Pristup promenljivoj pet iz namespace-a Konstante na liniji 51
+INFO  17:24:59,288 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 51
+INFO  17:24:59,288 - Pristup promenljivoj jedan iz namespace-a Konstante na liniji 51
+INFO  17:24:59,288 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 51
+INFO  17:24:59,288 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 52
+INFO  17:24:59,288 -  doda se lepo
+INFO  17:24:59,288 - ===================================
+INFO  17:24:59,295 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,362 @@
+INFO  20:04:59,032 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  20:04:59,084 - #2 program
+INFO  20:04:59,084 - #43 MJProgram
+INFO  20:04:59,084 - #48 namespace
+INFO  20:04:59,085 - #43 Konstante
+INFO  20:04:59,085 - #3 {
+INFO  20:04:59,086 - #21 const
+INFO  20:04:59,087 - #43 int
+INFO  20:04:59,087 - #43 nula
+INFO  20:04:59,087 - #11 =
+INFO  20:04:59,087 - #40 0
+INFO  20:04:59,088 - #5 ;
+INFO  20:04:59,088 - #21 const
+INFO  20:04:59,089 - #43 int
+INFO  20:04:59,089 - #43 jedan
+INFO  20:04:59,089 - #11 =
+INFO  20:04:59,089 - #40 1
+INFO  20:04:59,089 - #5 ;
+INFO  20:04:59,090 - #21 const
+INFO  20:04:59,090 - #43 int
+INFO  20:04:59,090 - #43 pet
+INFO  20:04:59,120 - #11 =
+INFO  20:04:59,120 - #40 5
+INFO  20:04:59,120 - #5 ;
+INFO  20:04:59,121 - #4 }
+INFO  20:04:59,122 - #48 namespace
+INFO  20:04:59,123 - #43 Nizovi
+INFO  20:04:59,123 - #3 {
+INFO  20:04:59,123 - #43 int
+INFO  20:04:59,123 - #43 niz
+INFO  20:04:59,123 - #19 [
+INFO  20:04:59,123 - #20 ]
+INFO  20:04:59,123 - #5 ;
+INFO  20:04:59,123 - #43 char
+INFO  20:04:59,124 - #43 nizch
+INFO  20:04:59,124 - #19 [
+INFO  20:04:59,124 - #20 ]
+INFO  20:04:59,124 - #5 ;
+INFO  20:04:59,124 - #3 {
+INFO  20:04:59,125 - #4 }
+INFO  20:04:59,125 - #4 }
+INFO  20:04:59,126 - #43 int
+INFO  20:04:59,126 - #43 a
+INFO  20:04:59,126 - #5 ;
+INFO  20:04:59,126 - #43 bool
+INFO  20:04:59,126 - #43 b
+INFO  20:04:59,127 - #5 ;
+INFO  20:04:59,127 - #3 {
+INFO  20:04:59,127 - #12 void
+INFO  20:04:59,127 - #43 main
+INFO  20:04:59,127 - #6 (
+INFO  20:04:59,127 - #7 )
+INFO  20:04:59,128 - #3 {
+INFO  20:04:59,128 - #43 a
+INFO  20:04:59,130 - #11 =
+INFO  20:04:59,130 - #40 4
+INFO  20:04:59,131 - #5 ;
+INFO  20:04:59,131 - #43 b
+INFO  20:04:59,131 - #11 =
+INFO  20:04:59,131 - #42 true
+INFO  20:04:59,131 - #5 ;
+INFO  20:04:59,132 - #43 Nizovi
+INFO  20:04:59,132 - #16 :
+INFO  20:04:59,132 - #16 :
+INFO  20:04:59,132 - #43 niz
+INFO  20:04:59,132 - #11 =
+INFO  20:04:59,132 - #23 new
+INFO  20:04:59,133 - #43 int
+INFO  20:04:59,133 - #19 [
+INFO  20:04:59,133 - #40 2
+INFO  20:04:59,133 - #20 ]
+INFO  20:04:59,133 - #5 ;
+INFO  20:04:59,133 - #43 Nizovi
+INFO  20:04:59,133 - #16 :
+INFO  20:04:59,133 - #16 :
+INFO  20:04:59,134 - #43 niz
+INFO  20:04:59,134 - #19 [
+INFO  20:04:59,134 - #43 Konstante
+INFO  20:04:59,134 - #16 :
+INFO  20:04:59,134 - #16 :
+INFO  20:04:59,134 - #43 nula
+INFO  20:04:59,134 - #20 ]
+INFO  20:04:59,134 - #11 =
+INFO  20:04:59,135 - #40 2
+INFO  20:04:59,135 - #5 ;
+INFO  20:04:59,135 - #9 print
+INFO  20:04:59,135 - #6 (
+INFO  20:04:59,135 - #43 b
+INFO  20:04:59,135 - #7 )
+INFO  20:04:59,136 - #5 ;
+INFO  20:04:59,136 - #4 }
+INFO  20:04:59,137 - #4 }
+INFO  20:04:59,145 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NameSpaceL(
+      NoName(
+      ) [NoName]
+      NameSpaceSamo(
+        NameSp(
+         Konstante
+        ) [NameSp]
+        ConstDeclarations(
+          ConstDeclarations(
+            ConstDeclarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDcl(
+                SamoType(
+                 int
+                ) [SamoType]
+                ConstElemSingle(
+                  ConstElemm(
+                   nula
+                    NConst(
+                     0
+                    ) [NConst]
+                  ) [ConstElemm]
+                ) [ConstElemSingle]
+              ) [ConstDcl]
+            ) [ConstDeclarations]
+            ConstDcl(
+              SamoType(
+               int
+              ) [SamoType]
+              ConstElemSingle(
+                ConstElemm(
+                 jedan
+                  NConst(
+                   1
+                  ) [NConst]
+                ) [ConstElemm]
+              ) [ConstElemSingle]
+            ) [ConstDcl]
+          ) [ConstDeclarations]
+          ConstDcl(
+            SamoType(
+             int
+            ) [SamoType]
+            ConstElemSingle(
+              ConstElemm(
+               pet
+                NConst(
+                 5
+                ) [NConst]
+              ) [ConstElemm]
+            ) [ConstElemSingle]
+          ) [ConstDcl]
+        ) [ConstDeclarations]
+        NoMtn(
+        ) [NoMtn]
+      ) [NameSpaceSamo]
+    ) [NameSpaceL]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          NoDeclarations(
+          ) [NoDeclarations]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarArrayElem(
+               niz
+              ) [VarArrayElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           char
+          ) [SamoType]
+          VarElem(
+            VarArrayElem(
+             nizch
+            ) [VarArrayElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    VarDeclarations(
+      NoDeclarations(
+      ) [NoDeclarations]
+      VarDeclaration(
+        SamoType(
+         int
+        ) [SamoType]
+        VarElem(
+          VarSingleElem(
+           a
+          ) [VarSingleElem]
+        ) [VarElem]
+      ) [VarDeclaration]
+    ) [VarDeclarations]
+    VarDeclaration(
+      SamoType(
+       bool
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         b
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                Assignment(
+                  DesignatorStatementAssign(
+                    DesigSamo(
+                     a
+                    ) [DesigSamo]
+                    AssignOp(
+                    ) [AssignOp]
+                    ExprS(
+                      TermFactL(
+                        NumF(
+                         4
+                        ) [NumF]
+                      ) [TermFactL]
+                    ) [ExprS]
+                  ) [DesignatorStatementAssign]
+                ) [Assignment]
+              ) [Statements]
+              Assignment(
+                DesignatorStatementAssign(
+                  DesigSamo(
+                   b
+                  ) [DesigSamo]
+                  AssignOp(
+                  ) [AssignOp]
+                  ExprS(
+                    TermFactL(
+                      BoolF(
+                       true
+                      ) [BoolF]
+                    ) [TermFactL]
+                  ) [ExprS]
+                ) [DesignatorStatementAssign]
+              ) [Assignment]
+            ) [Statements]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigNiz(
+                 Nizovi
+                 niz
+                ) [DesigNiz]
+                AssignOp(
+                ) [AssignOp]
+                ExprS(
+                  TermFactL(
+                    NewExpr(
+                      SamoType(
+                       int
+                      ) [SamoType]
+                      ExprS(
+                        TermFactL(
+                          NumF(
+                           2
+                          ) [NumF]
+                        ) [TermFactL]
+                      ) [ExprS]
+                    ) [NewExpr]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          Assignment(
+            DesignatorStatementAssign(
+              DesignatorUglaste(
+                DesigNiz(
+                 Nizovi
+                 niz
+                ) [DesigNiz]
+                ExprS(
+                  TermFactL(
+                    FactDSingle(
+                      DesigNiz(
+                       Konstante
+                       nula
+                      ) [DesigNiz]
+                    ) [FactDSingle]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorUglaste]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   2
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                DesigSamo(
+                 b
+                ) [DesigSamo]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+          Nothing(
+          ) [Nothing]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:04:59,146 - ===================================
+INFO  20:04:59,149 - ejjjjjjj u nmpppppp  na liniji 2
+INFO  20:04:59,150 - Deklarisana konstanta imena nula na liniji 3
+INFO  20:04:59,150 - Deklarisana konstanta imena jedan na liniji 4
+INFO  20:04:59,150 - Deklarisana konstanta imena pet na liniji 5
+INFO  20:04:59,150 - broj prom u nejmu su 0 na liniji 2
+INFO  20:04:59,151 - ejjjjjjj u nmpppppp  na liniji 8
+INFO  20:04:59,151 - Deklarisana promenljiva niz na liniji 9
+INFO  20:04:59,151 - Deklarisana promenljiva nizch na liniji 10
+INFO  20:04:59,151 - broj prom u nejmu su 2 na liniji 8
+INFO  20:04:59,151 - Deklarisana promenljiva a na liniji 16
+INFO  20:04:59,152 - Deklarisana promenljiva b na liniji 17
+INFO  20:04:59,152 - Obradjuje se fja sa void povratnim tipom,  main na liniji 19
+INFO  20:04:59,152 - Detektovano koriscenje globalne promenljive Var a: int, 2, 0  na liniji 20
+INFO  20:04:59,153 - Detektovano koriscenje globalne promenljive Var b: , 3, 0  na liniji 21
+INFO  20:04:59,153 - ime desig je niz na liniji 22
+INFO  20:04:59,153 - on jeeeeeee 3 na liniji 22
+INFO  20:04:59,153 - ime desig je niz na liniji 23
+INFO  20:04:59,153 - on jeeeeeee 3 na liniji 23
+INFO  20:04:59,154 - ime desig je nula na liniji 23
+INFO  20:04:59,154 - on jeeeeeee 1 na liniji 23

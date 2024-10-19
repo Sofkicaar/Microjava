@@ -1,0 +1,72 @@
+INFO  15:54:14,111 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:54:14,179 - #2 program
+INFO  15:54:14,180 - #43 test301
+INFO  15:54:14,180 - #48 namespace
+INFO  15:54:14,182 - #43 Konstante
+INFO  15:54:14,182 - #3 {
+INFO  15:54:14,183 - #43 int
+INFO  15:54:14,184 - #43 a
+INFO  15:54:14,184 - #5 ;
+INFO  15:54:14,185 - #4 }
+INFO  15:54:14,186 - #3 {
+INFO  15:54:14,187 - #12 void
+INFO  15:54:14,188 - #43 main
+INFO  15:54:14,188 - #6 (
+INFO  15:54:14,188 - #7 )
+INFO  15:54:14,189 - #3 {
+INFO  15:54:14,190 - #4 }
+INFO  15:54:14,190 - #4 }
+INFO  15:54:14,199 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  NoDeclarations(
+  ) [NoDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:54:14,229 - ===================================
+INFO  15:54:14,234 - hihhihihi  na liniji 6
+INFO  15:54:14,234 - tip je 1 na liniji 6
+INFO  15:54:14,234 - Deklarisana promenljiva u namespace-u a na liniji 6
+INFO  15:54:14,234 - broj prom u nejmu je 1 na liniji 5
+INFO  15:54:14,235 - Obradjuje se fja sa void povratnim tipom,  main na liniji 14
+INFO  15:54:14,235 -  doda se lepo
+INFO  15:54:14,235 - ===================================
+INFO  15:54:14,242 - Parsiranje uspesno zavrseno!

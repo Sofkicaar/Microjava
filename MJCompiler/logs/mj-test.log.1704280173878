@@ -1,0 +1,165 @@
+INFO  12:09:16,904 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  12:09:16,935 - #2 program
+INFO  12:09:16,935 - #43 MJProgram
+INFO  12:09:16,935 - #48 namespace
+INFO  12:09:16,936 - #43 Ime
+INFO  12:09:16,936 - #3 {
+INFO  12:09:16,937 - #43 int
+INFO  12:09:16,937 - #43 b
+INFO  12:09:16,937 - #5 ;
+INFO  12:09:16,938 - #4 }
+INFO  12:09:16,939 - #43 int
+INFO  12:09:16,939 - #43 a
+INFO  12:09:16,939 - #5 ;
+INFO  12:09:16,939 - #3 {
+INFO  12:09:16,940 - #12 void
+INFO  12:09:16,940 - #43 main
+INFO  12:09:16,940 - #6 (
+INFO  12:09:16,940 - #7 )
+INFO  12:09:16,940 - #3 {
+INFO  12:09:16,941 - #43 a
+INFO  12:09:16,942 - #11 =
+INFO  12:09:16,942 - #40 2
+INFO  12:09:16,943 - #5 ;
+INFO  12:09:16,943 - #43 Ime
+INFO  12:09:16,943 - #16 :
+INFO  12:09:16,943 - #16 :
+INFO  12:09:16,943 - #43 b
+INFO  12:09:16,943 - #11 =
+INFO  12:09:16,943 - #43 a
+INFO  12:09:16,944 - #5 ;
+INFO  12:09:16,944 - #9 print
+INFO  12:09:16,944 - #6 (
+INFO  12:09:16,944 - #43 Ime
+INFO  12:09:16,944 - #16 :
+INFO  12:09:16,944 - #16 :
+INFO  12:09:16,944 - #43 b
+INFO  12:09:16,944 - #7 )
+INFO  12:09:16,945 - #5 ;
+INFO  12:09:16,945 - #4 }
+INFO  12:09:16,945 - #4 }
+INFO  12:09:16,949 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Ime
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             b
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigSamo(
+                 a
+                ) [DesigSamo]
+                AssignOp(
+                ) [AssignOp]
+                ExprS(
+                  TermFactL(
+                    NumF(
+                     2
+                    ) [NumF]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigNiz(
+               Ime
+               b
+              ) [DesigNiz]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  FactDSingle(
+                    DesigSamo(
+                     a
+                    ) [DesigSamo]
+                  ) [FactDSingle]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                DesigNiz(
+                 Ime
+                 b
+                ) [DesigNiz]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+          Nothing(
+          ) [Nothing]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:09:16,949 - ===================================
+INFO  12:09:16,951 - ejjjjjjj u nmpppppp  na liniji 3
+INFO  12:09:16,951 - Deklarisana promenljiva b na liniji 4
+INFO  12:09:16,951 - broj prom u nejmu su 1 na liniji 3
+INFO  12:09:16,951 - Deklarisana promenljiva a na liniji 7
+INFO  12:09:16,951 - Obradjuje se fja sa void povratnim tipom,  main na liniji 9
+INFO  12:09:16,952 - Detektovano koriscenje globalne promenljive Var a: int, 1, 0  na liniji 10
+INFO  12:09:16,952 - ime desig je b na liniji 11
+INFO  12:09:16,952 - Detektovano koriscenje globalne promenljive Var a: int, 1, 0  na liniji 11
+INFO  12:09:16,952 - ime desig je b na liniji 12
+INFO  12:09:16,952 -  doda se lepo
+INFO  12:09:16,952 - ===================================
+INFO  12:09:16,956 - Parsiranje uspesno zavrseno!

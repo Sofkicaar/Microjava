@@ -1,0 +1,349 @@
+INFO  16:49:22,087 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\test301.mj
+INFO  16:49:22,144 - #2 program
+INFO  16:49:22,144 - #43 test301
+INFO  16:49:22,144 - #48 namespace
+INFO  16:49:22,145 - #43 Konstante
+INFO  16:49:22,145 - #3 {
+INFO  16:49:22,146 - #21 const
+INFO  16:49:22,147 - #43 int
+INFO  16:49:22,147 - #43 nula
+INFO  16:49:22,147 - #11 =
+INFO  16:49:22,148 - #40 0
+INFO  16:49:22,148 - #5 ;
+INFO  16:49:22,148 - #21 const
+INFO  16:49:22,149 - #43 int
+INFO  16:49:22,149 - #43 jedan
+INFO  16:49:22,149 - #11 =
+INFO  16:49:22,149 - #40 1
+INFO  16:49:22,149 - #5 ;
+INFO  16:49:22,149 - #21 const
+INFO  16:49:22,149 - #43 int
+INFO  16:49:22,150 - #43 pet
+INFO  16:49:22,152 - #11 =
+INFO  16:49:22,153 - #40 5
+INFO  16:49:22,153 - #5 ;
+INFO  16:49:22,153 - #4 }
+INFO  16:49:22,154 - #48 namespace
+INFO  16:49:22,155 - #43 Nizovi
+INFO  16:49:22,155 - #3 {
+INFO  16:49:22,155 - #43 int
+INFO  16:49:22,155 - #43 niz
+INFO  16:49:22,156 - #19 [
+INFO  16:49:22,156 - #20 ]
+INFO  16:49:22,156 - #5 ;
+INFO  16:49:22,156 - #43 char
+INFO  16:49:22,157 - #43 nizch
+INFO  16:49:22,157 - #19 [
+INFO  16:49:22,157 - #20 ]
+INFO  16:49:22,157 - #5 ;
+INFO  16:49:22,158 - #43 char
+INFO  16:49:22,158 - #43 a
+INFO  16:49:22,158 - #5 ;
+INFO  16:49:22,158 - #3 {
+INFO  16:49:22,159 - #4 }
+INFO  16:49:22,160 - #4 }
+INFO  16:49:22,160 - #43 int
+INFO  16:49:22,160 - #43 a
+INFO  16:49:22,161 - #5 ;
+INFO  16:49:22,161 - #3 {
+INFO  16:49:22,161 - #12 void
+INFO  16:49:22,161 - #43 main
+INFO  16:49:22,161 - #6 (
+INFO  16:49:22,162 - #7 )
+INFO  16:49:22,162 - #43 int
+INFO  16:49:22,163 - #43 bodovi
+INFO  16:49:22,163 - #5 ;
+INFO  16:49:22,163 - #43 bool
+INFO  16:49:22,163 - #43 bt
+INFO  16:49:22,163 - #5 ;
+INFO  16:49:22,163 - #3 {
+INFO  16:49:22,164 - #43 bodovi
+INFO  16:49:22,164 - #11 =
+INFO  16:49:22,165 - #40 0
+INFO  16:49:22,165 - #5 ;
+INFO  16:49:22,166 - #43 Nizovi
+INFO  16:49:22,166 - #16 :
+INFO  16:49:22,166 - #16 :
+INFO  16:49:22,167 - #43 a
+INFO  16:49:22,167 - #11 =
+INFO  16:49:22,167 - #41 a
+INFO  16:49:22,167 - #5 ;
+INFO  16:49:22,167 - #43 a
+INFO  16:49:22,167 - #11 =
+INFO  16:49:22,167 - #40 10
+INFO  16:49:22,168 - #5 ;
+INFO  16:49:22,168 - #9 print
+INFO  16:49:22,168 - #6 (
+INFO  16:49:22,168 - #43 a
+INFO  16:49:22,168 - #24 +
+INFO  16:49:22,168 - #40 2
+INFO  16:49:22,170 - #8 ,
+INFO  16:49:22,170 - #40 10
+INFO  16:49:22,170 - #7 )
+INFO  16:49:22,170 - #5 ;
+INFO  16:49:22,170 - #4 }
+INFO  16:49:22,170 - #4 }
+INFO  16:49:22,179 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NameSpaceL(
+      NoName(
+      ) [NoName]
+      NameSpaceSamo(
+        NameSp(
+         Konstante
+        ) [NameSp]
+        ConstDeclarations(
+          ConstDeclarations(
+            ConstDeclarations(
+              NoDeclarations(
+              ) [NoDeclarations]
+              ConstDcl(
+                SamoType(
+                 int
+                ) [SamoType]
+                ConstElemSingle(
+                  ConstElemm(
+                   nula
+                    NConst(
+                     0
+                    ) [NConst]
+                  ) [ConstElemm]
+                ) [ConstElemSingle]
+              ) [ConstDcl]
+            ) [ConstDeclarations]
+            ConstDcl(
+              SamoType(
+               int
+              ) [SamoType]
+              ConstElemSingle(
+                ConstElemm(
+                 jedan
+                  NConst(
+                   1
+                  ) [NConst]
+                ) [ConstElemm]
+              ) [ConstElemSingle]
+            ) [ConstDcl]
+          ) [ConstDeclarations]
+          ConstDcl(
+            SamoType(
+             int
+            ) [SamoType]
+            ConstElemSingle(
+              ConstElemm(
+               pet
+                NConst(
+                 5
+                ) [NConst]
+              ) [ConstElemm]
+            ) [ConstElemSingle]
+          ) [ConstDcl]
+        ) [ConstDeclarations]
+        NoMtn(
+        ) [NoMtn]
+      ) [NameSpaceSamo]
+    ) [NameSpaceL]
+    NameSpaceSamo(
+      NameSp(
+       Nizovi
+      ) [NameSp]
+      VarDeclarations(
+        VarDeclarations(
+          VarDeclarations(
+            NoDeclarations(
+            ) [NoDeclarations]
+            VarDeclaration(
+              SamoType(
+               int
+              ) [SamoType]
+              VarElem(
+                VarArrayElem(
+                 niz
+                ) [VarArrayElem]
+              ) [VarElem]
+            ) [VarDeclaration]
+          ) [VarDeclarations]
+          VarDeclaration(
+            SamoType(
+             char
+            ) [SamoType]
+            VarElem(
+              VarArrayElem(
+               nizch
+              ) [VarArrayElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VarDeclarations]
+        VarDeclaration(
+          SamoType(
+           char
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      VList(
+        VList(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclaration(
+            SamoType(
+             int
+            ) [SamoType]
+            VarElem(
+              VarSingleElem(
+               bodovi
+              ) [VarSingleElem]
+            ) [VarElem]
+          ) [VarDeclaration]
+        ) [VList]
+        VarDeclaration(
+          SamoType(
+           bool
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             bt
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VList]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              Assignment(
+                DesignatorStatementAssign(
+                  DesigSamo(
+                   bodovi
+                  ) [DesigSamo]
+                  AssignOp(
+                  ) [AssignOp]
+                  ExprS(
+                    TermFactL(
+                      NumF(
+                       0
+                      ) [NumF]
+                    ) [TermFactL]
+                  ) [ExprS]
+                ) [DesignatorStatementAssign]
+              ) [Assignment]
+            ) [Statements]
+            Assignment(
+              DesignatorStatementAssign(
+                DesigNiz(
+                 Nizovi
+                 a
+                ) [DesigNiz]
+                AssignOp(
+                ) [AssignOp]
+                ExprS(
+                  TermFactL(
+                    CharF(
+                     a
+                    ) [CharF]
+                  ) [TermFactL]
+                ) [ExprS]
+              ) [DesignatorStatementAssign]
+            ) [Assignment]
+          ) [Statements]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               a
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   10
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmtNum(
+          ExprList(
+            ExprS(
+              TermFactL(
+                FactDSingle(
+                  DesigSamo(
+                   a
+                  ) [DesigSamo]
+                ) [FactDSingle]
+              ) [TermFactL]
+            ) [ExprS]
+            PlusOp(
+            ) [PlusOp]
+            TermFactL(
+              NumF(
+               2
+              ) [NumF]
+            ) [TermFactL]
+          ) [ExprList]
+          NumList(
+           10
+          ) [NumList]
+        ) [PrintStmtNum]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  16:49:22,179 - ===================================
+INFO  16:49:22,183 - Deklarisana konstanta imena nula na liniji 6
+INFO  16:49:22,183 - Deklarisana konstanta imena jedan na liniji 7
+INFO  16:49:22,184 - Deklarisana konstanta imena pet na liniji 8
+INFO  16:49:22,184 - Deklarisana promenljiva nizovnog tipa niz u namespace-u na liniji 12
+INFO  16:49:22,184 - Deklarisana promenljiva nizovnog tipa nizch u namespace-u na liniji 13
+INFO  16:49:22,184 - Deklarisana promenljiva a u namespace-u na liniji 15
+INFO  16:49:22,184 - Deklarisana promenljiva a str 1 na liniji 19
+INFO  16:49:22,184 - Obradjuje se fja sa void povratnim tipom,  main na liniji 22
+INFO  16:49:22,184 - Deklarisana promenljiva bodovi str 1 na liniji 23
+INFO  16:49:22,184 - Deklarisana promenljiva bt str 5 na liniji 25
+INFO  16:49:22,185 - Detektovano koriscenje lokalne promenljive Var bodovi: int, 0, 1  na liniji 27
+INFO  16:49:22,185 - Pristup promenljivoj a iz namespace-a Nizovi na liniji 28
+INFO  16:49:22,185 - Detektovano koriscenje globalne promenljive Var a: char, 2, 0  na liniji 29
+ERROR 16:49:22,186 - Greska na liniji 29 nekompatibilni tipovi pri dodeli  na liniji 29
+INFO  16:49:22,186 - Detektovano koriscenje globalne promenljive Var a: char, 2, 0  na liniji 30
+ERROR 16:49:22,186 - Nekompatibilni tipovi u izrazu uz addop expression na liniji 30
+ERROR 16:49:22,186 - Expr mora biti tipa int, char ili bool uz printStatement na liniji 30
+INFO  16:49:22,186 -  doda se lepo
+INFO  16:49:22,186 - ===================================
+ERROR 16:49:22,187 - Parsiranje NIJE uspesno zavrseno!

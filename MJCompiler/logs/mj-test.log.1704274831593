@@ -1,0 +1,98 @@
+INFO  14:46:47,181 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  14:46:47,216 - #2 program
+INFO  14:46:47,216 - #43 MJProgram
+INFO  14:46:47,216 - #48 namespace
+INFO  14:46:47,217 - #43 Nejm
+INFO  14:46:47,217 - #3 {
+INFO  14:46:47,217 - #3 {
+INFO  14:46:47,218 - #4 }
+INFO  14:46:47,218 - #4 }
+INFO  14:46:47,218 - #43 int
+INFO  14:46:47,218 - #43 a
+INFO  14:46:47,218 - #5 ;
+INFO  14:46:47,219 - #3 {
+INFO  14:46:47,219 - #12 void
+INFO  14:46:47,219 - #43 main
+INFO  14:46:47,219 - #6 (
+INFO  14:46:47,219 - #7 )
+INFO  14:46:47,219 - #3 {
+INFO  14:46:47,220 - #43 a
+INFO  14:46:47,220 - #11 =
+INFO  14:46:47,221 - #40 4
+INFO  14:46:47,221 - #5 ;
+INFO  14:46:47,222 - #4 }
+INFO  14:46:47,223 - #4 }
+INFO  14:46:47,228 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Nejm
+      ) [NameSp]
+      NoDeclarations(
+      ) [NoDeclarations]
+      Mtn(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+      ) [Mtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigSamo(
+             a
+            ) [DesigSamo]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                NumF(
+                 4
+                ) [NumF]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  14:46:47,228 - ===================================
+INFO  14:46:47,231 - ejjjjjjj u nmpppppp  na liniji 4
+INFO  14:46:47,231 - broj prom u nejmu su 0 na liniji 4
+INFO  14:46:47,231 - Deklarisana promenljiva a na liniji 8
+INFO  14:46:47,231 - Obradjuje se fja sa void povratnim tipom,  main na liniji 10
+INFO  14:46:47,231 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 11
+INFO  14:46:47,231 -  doda se lepo
+INFO  14:46:47,231 - ===================================
+INFO  14:46:47,235 - Parsiranje uspesno zavrseno!

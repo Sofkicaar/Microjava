@@ -1,0 +1,115 @@
+INFO  15:37:34,901 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  15:37:34,958 - #2 program
+INFO  15:37:34,958 - #43 test301
+INFO  15:37:34,958 - #48 namespace
+INFO  15:37:34,960 - #43 Konstante
+INFO  15:37:34,960 - #3 {
+INFO  15:37:34,961 - #43 int
+INFO  15:37:34,963 - #43 a
+INFO  15:37:34,963 - #5 ;
+INFO  15:37:34,964 - #4 }
+INFO  15:37:34,965 - #43 int
+INFO  15:37:34,966 - #43 b
+INFO  15:37:34,966 - #5 ;
+INFO  15:37:34,966 - #3 {
+INFO  15:37:34,966 - #12 void
+INFO  15:37:34,968 - #43 main
+INFO  15:37:34,968 - #6 (
+INFO  15:37:34,968 - #7 )
+INFO  15:37:34,968 - #3 {
+INFO  15:37:34,969 - #43 b
+INFO  15:37:34,970 - #11 =
+INFO  15:37:34,971 - #40 4
+INFO  15:37:35,001 - #5 ;
+INFO  15:37:35,002 - #4 }
+INFO  15:37:35,002 - #4 }
+INFO  15:37:35,013 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NameSpaceL(
+    NoName(
+    ) [NoName]
+    NameSpaceSamo(
+      NameSp(
+       Konstante
+      ) [NameSp]
+      VarDeclarations(
+        NoDeclarations(
+        ) [NoDeclarations]
+        VarDeclaration(
+          SamoType(
+           int
+          ) [SamoType]
+          VarElem(
+            VarSingleElem(
+             a
+            ) [VarSingleElem]
+          ) [VarElem]
+        ) [VarDeclaration]
+      ) [VarDeclarations]
+      NoMtn(
+      ) [NoMtn]
+    ) [NameSpaceSamo]
+  ) [NameSpaceL]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         b
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesignatorStatementAssign(
+            DesigSamo(
+             b
+            ) [DesigSamo]
+            AssignOp(
+            ) [AssignOp]
+            ExprS(
+              TermFactL(
+                NumF(
+                 4
+                ) [NumF]
+              ) [TermFactL]
+            ) [ExprS]
+          ) [DesignatorStatementAssign]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:37:35,013 - ===================================
+INFO  15:37:35,018 - hihhihihi  na liniji 6
+INFO  15:37:35,018 - tip je 1 na liniji 6
+INFO  15:37:35,018 - Deklarisana promenljiva u namespace-u a na liniji 6
+INFO  15:37:35,018 - hihhihihi  na liniji 9
+INFO  15:37:35,019 - tip je 1 na liniji 9
+INFO  15:37:35,019 - Deklarisana promenljiva u namespace-u b na liniji 9
+INFO  15:37:35,019 - Obradjuje se fja sa void povratnim tipom,  main na liniji 14
+INFO  15:37:35,020 - Detektovano koriscenje globalne promenljive Var b: Arr of int, 1, 0  na liniji 18
+INFO  15:37:35,020 - onj je1 na liniji 18
+INFO  15:37:35,020 - ovaj je 3 na liniji 18
+ERROR 15:37:35,020 - Greska na liniji 18 nekompatibilni tipovi pri dodeli  na liniji 18
+INFO  15:37:35,020 -  doda se lepo
+INFO  15:37:35,020 - ===================================
+ERROR 15:37:35,021 - Parsiranje NIJE uspesno zavrseno!

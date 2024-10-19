@@ -1,0 +1,98 @@
+INFO  10:40:31,598 - Compiling source file: C:\Users\Administrator\Desktop\njihovProjekat\workspace\MJCompiler\test\program.mj
+INFO  10:40:33,379 - #2 program
+INFO  10:40:33,379 - #43 MJProgram
+INFO  10:40:33,379 - #43 int
+INFO  10:40:33,419 - #43 a
+INFO  10:40:33,420 - #5 ;
+INFO  10:40:33,420 - #3 {
+INFO  10:40:33,421 - #12 void
+INFO  10:40:33,438 - #43 main
+INFO  10:40:33,438 - #6 (
+INFO  10:40:33,439 - #7 )
+INFO  10:40:33,439 - #3 {
+INFO  10:40:33,454 - #43 a
+INFO  10:40:33,466 - #11 =
+INFO  10:40:33,466 - #40 4
+INFO  10:40:33,481 - #5 ;
+INFO  10:40:33,482 - #9 print
+INFO  10:40:33,482 - #6 (
+INFO  10:40:33,482 - #43 a
+INFO  10:40:33,482 - #7 )
+INFO  10:40:33,496 - #5 ;
+INFO  10:40:33,496 - #4 }
+INFO  10:40:33,497 - #4 }
+INFO  10:40:33,518 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoName(
+  ) [NoName]
+  VarDeclarations(
+    NoDeclarations(
+    ) [NoDeclarations]
+    VarDeclaration(
+      SamoType(
+       int
+      ) [SamoType]
+      VarElem(
+        VarSingleElem(
+         a
+        ) [VarSingleElem]
+      ) [VarElem]
+    ) [VarDeclaration]
+  ) [VarDeclarations]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MethodReturnVoid(
+       main
+      ) [MethodReturnVoid]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatementAssign(
+              DesigSamo(
+               a
+              ) [DesigSamo]
+              AssignOp(
+              ) [AssignOp]
+              ExprS(
+                TermFactL(
+                  NumF(
+                   4
+                  ) [NumF]
+                ) [TermFactL]
+              ) [ExprS]
+            ) [DesignatorStatementAssign]
+          ) [Assignment]
+        ) [Statements]
+        PrintStmt(
+          ExprS(
+            TermFactL(
+              FactDSingle(
+                DesigSamo(
+                 a
+                ) [DesigSamo]
+              ) [FactDSingle]
+            ) [TermFactL]
+          ) [ExprS]
+          Nothing(
+          ) [Nothing]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  10:40:33,518 - ===================================
+INFO  10:40:33,567 - Deklarisana promenljiva a na liniji 5
+INFO  10:40:33,567 - Obradjuje se fja sa void povratnim tipom,  main na liniji 7
+INFO  10:40:33,567 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 8
+INFO  10:40:33,568 - Detektovano koriscenje globalne promenljive Var a: int, 0, 0  na liniji 9
+INFO  10:40:33,568 -  doda se lepo
+INFO  10:40:33,568 - ===================================
+INFO  10:40:33,606 - Parsiranje uspesno zavrseno!
